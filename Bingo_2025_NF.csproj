@@ -59,20 +59,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="ServidorBingo.cs" />
     <EmbeddedResource Include="frmBingo.resx">
       <DependentUpon>frmBingo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -82,294 +82,109 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Letras\Advertiser_0.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bola_01.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_02.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_03.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_04.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_05.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_06.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_07.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_08.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_09.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_10.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_11.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_12.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_13.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_14.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_15.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_16.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_17.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_18.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_19.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_20.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_21.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_22.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_23.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_25.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_26.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_27.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_28.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_30.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_31.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_33.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_34.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_35.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_36.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_37.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_38.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_39.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_40.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_41.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_42.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_43.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_44.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_45.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_46.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_47.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_49.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_50.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_51.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_52.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_53.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_54.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_55.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_56.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_57.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_58.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_59.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_60.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_61.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_62.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_63.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_65.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_66.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_67.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_68.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_69.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_70.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_71.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_72.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_73.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_74.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_75.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_76.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_77.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_78.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_79.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_80.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_81.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_82.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_83.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_84.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_85.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_86.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_87.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_88.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_89.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bola_90.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fondo_bolas.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cartel_bingo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cartel_carton.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cartel_linea.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="icono_bingo.ico" />
+    <Content Include="Resources\Imagenes\Bolas\bola_01.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_02.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_03.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_04.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_05.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_06.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_07.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_08.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_09.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_10.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_11.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_12.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_13.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_14.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_15.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_16.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_17.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_18.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_19.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_20.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_21.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_22.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_23.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_24.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_25.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_26.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_27.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_28.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_29.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_30.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_31.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_32.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_33.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_34.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_35.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_36.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_37.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_38.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_39.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_40.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_41.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_42.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_43.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_44.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_45.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_46.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_47.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_48.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_49.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_50.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_51.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_52.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_53.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_54.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_55.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_56.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_57.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_58.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_59.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_60.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_61.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_62.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_63.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_64.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_65.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_66.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_67.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_68.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_69.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_70.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_71.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_72.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_73.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_74.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_75.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_76.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_77.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_78.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_79.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_80.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_81.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_82.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_83.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_84.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_85.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_86.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_87.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_88.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_89.png" />
+    <Content Include="Resources\Imagenes\Bolas\bola_90.png" />
+    <Content Include="Resources\Imagenes\Bolas\fondo_bolas.png" />
+    <Content Include="Resources\Imagenes\Carteles\cartel_bingo.png" />
+    <Content Include="Resources\Imagenes\Carteles\cartel_carton.PNG" />
+    <Content Include="Resources\Imagenes\Carteles\cartel_linea.png" />
+    <Content Include="Resources\Imagenes\Iconos\icono_bingo.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

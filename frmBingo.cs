@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -79,6 +80,8 @@ namespace Bingo_2025_NF
                 barajarArrayBolillas();
 
                 GenerarCarton();
+
+                picEvento.Image = null;
             }
         }
 
@@ -116,12 +119,27 @@ namespace Bingo_2025_NF
                 // Verificar si el cartón está completo
                 if (cartonCompleto())
                 {
-                    // Mostrar la imagen de Bingo
-                    picEvento.Image = Properties.Resources.cartel_bingo; // Asegúrate de que la imagen esté en los recursos con el nombre "bingo"
+                    // Obtener la ruta base del proyecto
+                    string rutaProyecto = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)?.Parent?.Parent?.FullName;
+
+                    // Construir la ruta de la imagen "cartel_bingo.png"
+                    string rutaImagen = Path.Combine(rutaProyecto, "Resources", "Imagenes", "Carteles", "cartel_bingo.png");
+
+                    // Verificar si la imagen existe antes de cargarla
+                    if (File.Exists(rutaImagen))
+                    {
+                        picEvento.Image = Image.FromFile(rutaImagen);
+                    }
+                    else
+                    {
+                        picEvento.Image = null; // En caso de que no se encuentre la imagen
+                    }
                 }
 
                 if (bolillas.Count == 0)
                 {
+                    picEvento.Image = null;
+
                     DialogResult finBingo = MessageBox.Show("¿Deseas Jugar otra vez?", "Juego Finalizado", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                     if (finBingo == DialogResult.Yes)
@@ -142,6 +160,8 @@ namespace Bingo_2025_NF
 
                         txtContador.Text = "";
                         contadorBolillas = 1;
+
+                        GenerarCarton();
                     }
                     else
                     {
@@ -172,9 +192,21 @@ namespace Bingo_2025_NF
 
         private void actualizarBola(int numeroAzar)
         {
-            // Asignamos la imagen de la bola
-            string bolaImagen = $"bola_{numeroAzar:D2}"; // Asegura un formato de dos dígitos
-            picBola.Image = (Image)Properties.Resources.ResourceManager.GetObject(bolaImagen);
+            // Obtener la ruta raíz del proyecto
+            string rutaProyecto = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)?.Parent?.Parent?.FullName;
+
+            // Construir la ruta de la imagen
+            string rutaImagen = Path.Combine(rutaProyecto, "Resources", "Imagenes", "Bolas", $"bola_{numeroAzar:D2}.png");
+
+            // Verificar si la imagen existe antes de cargarla
+            if (File.Exists(rutaImagen))
+            {
+                picBola.Image = Image.FromFile(rutaImagen);
+            }
+            else
+            {
+                picBola.Image = null; // En caso de que no se encuentre la imagen
+            }
 
             // Actualizamos el color del TextBox correspondiente
             txtBolillas[numeroAzar - 1].ForeColor = Color.Yellow; // -1 porque el índice del array comienza en 0

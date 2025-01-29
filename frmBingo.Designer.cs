@@ -1489,7 +1489,7 @@
             // 
             // picBola
             // 
-            this.picBola.BackgroundImage = global::Bingo_2025_NF.Properties.Resources.fondo_bolas;
+            this.picBola.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picBola.BackgroundImage")));
             this.picBola.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picBola.Location = new System.Drawing.Point(598, 12);
             this.picBola.Name = "picBola";
@@ -1629,7 +1629,7 @@
             // tablePanelCarton
             // 
             this.tablePanelCarton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tablePanelCarton.BackgroundImage = global::Bingo_2025_NF.Properties.Resources.cartel_carton;
+            this.tablePanelCarton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tablePanelCarton.BackgroundImage")));
             this.tablePanelCarton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tablePanelCarton.ColumnCount = 5;
             this.tablePanelCarton.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
