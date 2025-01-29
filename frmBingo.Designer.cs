@@ -54,71 +54,87 @@
             this.txtBola23 = new System.Windows.Forms.TextBox();
             this.txtBola24 = new System.Windows.Forms.TextBox();
             this.txtBola25 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.textBox49 = new System.Windows.Forms.TextBox();
-            this.textBox50 = new System.Windows.Forms.TextBox();
-            this.textBox51 = new System.Windows.Forms.TextBox();
-            this.textBox52 = new System.Windows.Forms.TextBox();
-            this.textBox53 = new System.Windows.Forms.TextBox();
-            this.textBox54 = new System.Windows.Forms.TextBox();
-            this.textBox55 = new System.Windows.Forms.TextBox();
-            this.textBox56 = new System.Windows.Forms.TextBox();
-            this.textBox57 = new System.Windows.Forms.TextBox();
-            this.textBox58 = new System.Windows.Forms.TextBox();
-            this.textBox59 = new System.Windows.Forms.TextBox();
-            this.textBox60 = new System.Windows.Forms.TextBox();
-            this.textBox61 = new System.Windows.Forms.TextBox();
-            this.textBox62 = new System.Windows.Forms.TextBox();
-            this.textBox63 = new System.Windows.Forms.TextBox();
-            this.textBox64 = new System.Windows.Forms.TextBox();
-            this.textBox65 = new System.Windows.Forms.TextBox();
-            this.textBox66 = new System.Windows.Forms.TextBox();
-            this.textBox67 = new System.Windows.Forms.TextBox();
-            this.textBox68 = new System.Windows.Forms.TextBox();
-            this.textBox69 = new System.Windows.Forms.TextBox();
-            this.textBox70 = new System.Windows.Forms.TextBox();
-            this.textBox71 = new System.Windows.Forms.TextBox();
-            this.textBox72 = new System.Windows.Forms.TextBox();
-            this.textBox73 = new System.Windows.Forms.TextBox();
-            this.textBox74 = new System.Windows.Forms.TextBox();
-            this.textBox75 = new System.Windows.Forms.TextBox();
-            this.textBox76 = new System.Windows.Forms.TextBox();
-            this.textBox77 = new System.Windows.Forms.TextBox();
-            this.textBox78 = new System.Windows.Forms.TextBox();
+            this.txtBola26 = new System.Windows.Forms.TextBox();
+            this.txtBola27 = new System.Windows.Forms.TextBox();
+            this.txtBola28 = new System.Windows.Forms.TextBox();
+            this.txtBola29 = new System.Windows.Forms.TextBox();
+            this.txtBola30 = new System.Windows.Forms.TextBox();
+            this.txtBola31 = new System.Windows.Forms.TextBox();
+            this.txtBola32 = new System.Windows.Forms.TextBox();
+            this.txtBola33 = new System.Windows.Forms.TextBox();
+            this.txtBola34 = new System.Windows.Forms.TextBox();
+            this.txtBola35 = new System.Windows.Forms.TextBox();
+            this.txtBola36 = new System.Windows.Forms.TextBox();
+            this.txtBola37 = new System.Windows.Forms.TextBox();
+            this.txtBola38 = new System.Windows.Forms.TextBox();
+            this.txtBola39 = new System.Windows.Forms.TextBox();
+            this.txtBola40 = new System.Windows.Forms.TextBox();
+            this.txtBola41 = new System.Windows.Forms.TextBox();
+            this.txtBola42 = new System.Windows.Forms.TextBox();
+            this.txtBola43 = new System.Windows.Forms.TextBox();
+            this.txtBola44 = new System.Windows.Forms.TextBox();
+            this.txtBola45 = new System.Windows.Forms.TextBox();
+            this.txtBola46 = new System.Windows.Forms.TextBox();
+            this.txtBola47 = new System.Windows.Forms.TextBox();
+            this.txtBola48 = new System.Windows.Forms.TextBox();
+            this.txtBola49 = new System.Windows.Forms.TextBox();
+            this.txtBola50 = new System.Windows.Forms.TextBox();
+            this.txtBola51 = new System.Windows.Forms.TextBox();
+            this.txtBola52 = new System.Windows.Forms.TextBox();
+            this.txtBola53 = new System.Windows.Forms.TextBox();
+            this.txtBola54 = new System.Windows.Forms.TextBox();
+            this.txtBola55 = new System.Windows.Forms.TextBox();
+            this.txtBola56 = new System.Windows.Forms.TextBox();
+            this.txtBola57 = new System.Windows.Forms.TextBox();
+            this.txtBola58 = new System.Windows.Forms.TextBox();
+            this.txtBola59 = new System.Windows.Forms.TextBox();
+            this.txtBola60 = new System.Windows.Forms.TextBox();
+            this.txtBola61 = new System.Windows.Forms.TextBox();
+            this.txtBola62 = new System.Windows.Forms.TextBox();
+            this.txtBola63 = new System.Windows.Forms.TextBox();
+            this.txtBola64 = new System.Windows.Forms.TextBox();
+            this.txtBola65 = new System.Windows.Forms.TextBox();
+            this.txtBola66 = new System.Windows.Forms.TextBox();
+            this.txtBola67 = new System.Windows.Forms.TextBox();
+            this.txtBola68 = new System.Windows.Forms.TextBox();
+            this.txtBola69 = new System.Windows.Forms.TextBox();
+            this.txtBola70 = new System.Windows.Forms.TextBox();
+            this.txtBola71 = new System.Windows.Forms.TextBox();
+            this.txtBola72 = new System.Windows.Forms.TextBox();
+            this.txtBola73 = new System.Windows.Forms.TextBox();
+            this.txtBola74 = new System.Windows.Forms.TextBox();
+            this.txtBola75 = new System.Windows.Forms.TextBox();
+            this.txtBola76 = new System.Windows.Forms.TextBox();
+            this.txtBola77 = new System.Windows.Forms.TextBox();
+            this.txtBola78 = new System.Windows.Forms.TextBox();
+            this.txtBola79 = new System.Windows.Forms.TextBox();
+            this.txtBola80 = new System.Windows.Forms.TextBox();
+            this.txtBola81 = new System.Windows.Forms.TextBox();
+            this.txtBola82 = new System.Windows.Forms.TextBox();
+            this.txtBola83 = new System.Windows.Forms.TextBox();
+            this.txtBola84 = new System.Windows.Forms.TextBox();
+            this.txtBola85 = new System.Windows.Forms.TextBox();
+            this.txtBola86 = new System.Windows.Forms.TextBox();
+            this.txtBola87 = new System.Windows.Forms.TextBox();
+            this.txtBola88 = new System.Windows.Forms.TextBox();
+            this.txtBola89 = new System.Windows.Forms.TextBox();
             this.txtBola90 = new System.Windows.Forms.TextBox();
+            this.picBola = new System.Windows.Forms.PictureBox();
+            this.btnNuevoJuego = new System.Windows.Forms.Button();
+            this.btnNuevaBola = new System.Windows.Forms.Button();
+            this.lblJuegoEnRed = new System.Windows.Forms.Label();
+            this.lblEstadoConexion = new System.Windows.Forms.Label();
+            this.lblNombreJugador = new System.Windows.Forms.Label();
+            this.txtNombreJugador = new System.Windows.Forms.TextBox();
+            this.lblIPServidor = new System.Windows.Forms.Label();
+            this.txtIPServidor = new System.Windows.Forms.TextBox();
+            this.btnConectar = new System.Windows.Forms.Button();
+            this.picEvento = new System.Windows.Forms.PictureBox();
+            this.txtNuevaBola = new System.Windows.Forms.TextBox();
+            this.txtContador = new System.Windows.Forms.TextBox();
+            this.tablePanelCarton = new System.Windows.Forms.TableLayoutPanel();
+            ((System.ComponentModel.ISupportInitialize)(this.picBola)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEvento)).BeginInit();
             this.SuspendLayout();
             // 
             // txtBola1
@@ -428,7 +444,7 @@
             this.txtBola21.Cursor = System.Windows.Forms.Cursors.Default;
             this.txtBola21.Font = new System.Drawing.Font("Segoe UI", 24.75F);
             this.txtBola21.ForeColor = System.Drawing.Color.DimGray;
-            this.txtBola21.Location = new System.Drawing.Point(12, 139);
+            this.txtBola21.Location = new System.Drawing.Point(12, 114);
             this.txtBola21.Name = "txtBola21";
             this.txtBola21.ReadOnly = true;
             this.txtBola21.Size = new System.Drawing.Size(58, 51);
@@ -443,7 +459,7 @@
             this.txtBola22.Cursor = System.Windows.Forms.Cursors.Default;
             this.txtBola22.Font = new System.Drawing.Font("Segoe UI", 24.75F);
             this.txtBola22.ForeColor = System.Drawing.Color.DimGray;
-            this.txtBola22.Location = new System.Drawing.Point(76, 139);
+            this.txtBola22.Location = new System.Drawing.Point(70, 114);
             this.txtBola22.Name = "txtBola22";
             this.txtBola22.ReadOnly = true;
             this.txtBola22.Size = new System.Drawing.Size(58, 51);
@@ -458,7 +474,7 @@
             this.txtBola23.Cursor = System.Windows.Forms.Cursors.Default;
             this.txtBola23.Font = new System.Drawing.Font("Segoe UI", 24.75F);
             this.txtBola23.ForeColor = System.Drawing.Color.DimGray;
-            this.txtBola23.Location = new System.Drawing.Point(140, 139);
+            this.txtBola23.Location = new System.Drawing.Point(128, 114);
             this.txtBola23.Name = "txtBola23";
             this.txtBola23.ReadOnly = true;
             this.txtBola23.Size = new System.Drawing.Size(58, 51);
@@ -473,7 +489,7 @@
             this.txtBola24.Cursor = System.Windows.Forms.Cursors.Default;
             this.txtBola24.Font = new System.Drawing.Font("Segoe UI", 24.75F);
             this.txtBola24.ForeColor = System.Drawing.Color.DimGray;
-            this.txtBola24.Location = new System.Drawing.Point(204, 139);
+            this.txtBola24.Location = new System.Drawing.Point(186, 114);
             this.txtBola24.Name = "txtBola24";
             this.txtBola24.ReadOnly = true;
             this.txtBola24.Size = new System.Drawing.Size(58, 51);
@@ -488,7 +504,7 @@
             this.txtBola25.Cursor = System.Windows.Forms.Cursors.Default;
             this.txtBola25.Font = new System.Drawing.Font("Segoe UI", 24.75F);
             this.txtBola25.ForeColor = System.Drawing.Color.DimGray;
-            this.txtBola25.Location = new System.Drawing.Point(268, 139);
+            this.txtBola25.Location = new System.Drawing.Point(244, 114);
             this.txtBola25.Name = "txtBola25";
             this.txtBola25.ReadOnly = true;
             this.txtBola25.Size = new System.Drawing.Size(58, 51);
@@ -496,965 +512,965 @@
             this.txtBola25.Text = "25";
             this.txtBola25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox15
-            // 
-            this.textBox15.BackColor = System.Drawing.Color.Black;
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox15.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox15.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox15.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox15.Location = new System.Drawing.Point(332, 139);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.ReadOnly = true;
-            this.textBox15.Size = new System.Drawing.Size(58, 51);
-            this.textBox15.TabIndex = 25;
-            this.textBox15.Text = "26";
-            this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox16
-            // 
-            this.textBox16.BackColor = System.Drawing.Color.Black;
-            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox16.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox16.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox16.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox16.Location = new System.Drawing.Point(396, 139);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.ReadOnly = true;
-            this.textBox16.Size = new System.Drawing.Size(58, 51);
-            this.textBox16.TabIndex = 26;
-            this.textBox16.Text = "27";
-            this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox17
-            // 
-            this.textBox17.BackColor = System.Drawing.Color.Black;
-            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox17.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox17.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox17.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox17.Location = new System.Drawing.Point(460, 139);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.ReadOnly = true;
-            this.textBox17.Size = new System.Drawing.Size(58, 51);
-            this.textBox17.TabIndex = 27;
-            this.textBox17.Text = "28";
-            this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox18
-            // 
-            this.textBox18.BackColor = System.Drawing.Color.Black;
-            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox18.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox18.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox18.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox18.Location = new System.Drawing.Point(524, 139);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.ReadOnly = true;
-            this.textBox18.Size = new System.Drawing.Size(58, 51);
-            this.textBox18.TabIndex = 28;
-            this.textBox18.Text = "29";
-            this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox19
-            // 
-            this.textBox19.BackColor = System.Drawing.Color.Black;
-            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox19.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox19.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox19.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox19.Location = new System.Drawing.Point(588, 139);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.ReadOnly = true;
-            this.textBox19.Size = new System.Drawing.Size(58, 51);
-            this.textBox19.TabIndex = 29;
-            this.textBox19.Text = "30";
-            this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox20
-            // 
-            this.textBox20.BackColor = System.Drawing.Color.Black;
-            this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox20.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox20.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox20.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox20.Location = new System.Drawing.Point(12, 209);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.ReadOnly = true;
-            this.textBox20.Size = new System.Drawing.Size(58, 51);
-            this.textBox20.TabIndex = 30;
-            this.textBox20.Text = "31";
-            this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox21
-            // 
-            this.textBox21.BackColor = System.Drawing.Color.Black;
-            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox21.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox21.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox21.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox21.Location = new System.Drawing.Point(76, 209);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.ReadOnly = true;
-            this.textBox21.Size = new System.Drawing.Size(58, 51);
-            this.textBox21.TabIndex = 31;
-            this.textBox21.Text = "32";
-            this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox22
-            // 
-            this.textBox22.BackColor = System.Drawing.Color.Black;
-            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox22.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox22.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox22.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox22.Location = new System.Drawing.Point(140, 209);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.ReadOnly = true;
-            this.textBox22.Size = new System.Drawing.Size(58, 51);
-            this.textBox22.TabIndex = 32;
-            this.textBox22.Text = "33";
-            this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox23
-            // 
-            this.textBox23.BackColor = System.Drawing.Color.Black;
-            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox23.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox23.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox23.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox23.Location = new System.Drawing.Point(204, 209);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.ReadOnly = true;
-            this.textBox23.Size = new System.Drawing.Size(58, 51);
-            this.textBox23.TabIndex = 33;
-            this.textBox23.Text = "34";
-            this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox24
-            // 
-            this.textBox24.BackColor = System.Drawing.Color.Black;
-            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox24.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox24.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox24.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox24.Location = new System.Drawing.Point(268, 209);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.ReadOnly = true;
-            this.textBox24.Size = new System.Drawing.Size(58, 51);
-            this.textBox24.TabIndex = 34;
-            this.textBox24.Text = "35";
-            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox25
-            // 
-            this.textBox25.BackColor = System.Drawing.Color.Black;
-            this.textBox25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox25.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox25.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox25.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox25.Location = new System.Drawing.Point(332, 209);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.ReadOnly = true;
-            this.textBox25.Size = new System.Drawing.Size(58, 51);
-            this.textBox25.TabIndex = 35;
-            this.textBox25.Text = "36";
-            this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox26
-            // 
-            this.textBox26.BackColor = System.Drawing.Color.Black;
-            this.textBox26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox26.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox26.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox26.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox26.Location = new System.Drawing.Point(396, 209);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.ReadOnly = true;
-            this.textBox26.Size = new System.Drawing.Size(58, 51);
-            this.textBox26.TabIndex = 36;
-            this.textBox26.Text = "37";
-            this.textBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox27
-            // 
-            this.textBox27.BackColor = System.Drawing.Color.Black;
-            this.textBox27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox27.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox27.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox27.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox27.Location = new System.Drawing.Point(460, 209);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.ReadOnly = true;
-            this.textBox27.Size = new System.Drawing.Size(58, 51);
-            this.textBox27.TabIndex = 37;
-            this.textBox27.Text = "38";
-            this.textBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox28
-            // 
-            this.textBox28.BackColor = System.Drawing.Color.Black;
-            this.textBox28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox28.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox28.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox28.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox28.Location = new System.Drawing.Point(524, 209);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.ReadOnly = true;
-            this.textBox28.Size = new System.Drawing.Size(58, 51);
-            this.textBox28.TabIndex = 38;
-            this.textBox28.Text = "39";
-            this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox29
-            // 
-            this.textBox29.BackColor = System.Drawing.Color.Black;
-            this.textBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox29.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox29.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox29.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox29.Location = new System.Drawing.Point(588, 209);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.ReadOnly = true;
-            this.textBox29.Size = new System.Drawing.Size(58, 51);
-            this.textBox29.TabIndex = 39;
-            this.textBox29.Text = "40";
-            this.textBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox30
-            // 
-            this.textBox30.BackColor = System.Drawing.Color.Black;
-            this.textBox30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox30.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox30.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox30.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox30.Location = new System.Drawing.Point(12, 283);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.ReadOnly = true;
-            this.textBox30.Size = new System.Drawing.Size(58, 51);
-            this.textBox30.TabIndex = 40;
-            this.textBox30.Text = "41";
-            this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox31
-            // 
-            this.textBox31.BackColor = System.Drawing.Color.Black;
-            this.textBox31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox31.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox31.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox31.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox31.Location = new System.Drawing.Point(76, 283);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.ReadOnly = true;
-            this.textBox31.Size = new System.Drawing.Size(58, 51);
-            this.textBox31.TabIndex = 41;
-            this.textBox31.Text = "42";
-            this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox32
-            // 
-            this.textBox32.BackColor = System.Drawing.Color.Black;
-            this.textBox32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox32.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox32.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox32.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox32.Location = new System.Drawing.Point(140, 283);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.ReadOnly = true;
-            this.textBox32.Size = new System.Drawing.Size(58, 51);
-            this.textBox32.TabIndex = 42;
-            this.textBox32.Text = "43";
-            this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox33
-            // 
-            this.textBox33.BackColor = System.Drawing.Color.Black;
-            this.textBox33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox33.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox33.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox33.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox33.Location = new System.Drawing.Point(204, 283);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.ReadOnly = true;
-            this.textBox33.Size = new System.Drawing.Size(58, 51);
-            this.textBox33.TabIndex = 43;
-            this.textBox33.Text = "44";
-            this.textBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox34
-            // 
-            this.textBox34.BackColor = System.Drawing.Color.Black;
-            this.textBox34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox34.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox34.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox34.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox34.Location = new System.Drawing.Point(268, 283);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.ReadOnly = true;
-            this.textBox34.Size = new System.Drawing.Size(58, 51);
-            this.textBox34.TabIndex = 44;
-            this.textBox34.Text = "45";
-            this.textBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox35
-            // 
-            this.textBox35.BackColor = System.Drawing.Color.Black;
-            this.textBox35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox35.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox35.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox35.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox35.Location = new System.Drawing.Point(332, 283);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.ReadOnly = true;
-            this.textBox35.Size = new System.Drawing.Size(58, 51);
-            this.textBox35.TabIndex = 45;
-            this.textBox35.Text = "46";
-            this.textBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox36
-            // 
-            this.textBox36.BackColor = System.Drawing.Color.Black;
-            this.textBox36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox36.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox36.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox36.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox36.Location = new System.Drawing.Point(396, 283);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.ReadOnly = true;
-            this.textBox36.Size = new System.Drawing.Size(58, 51);
-            this.textBox36.TabIndex = 46;
-            this.textBox36.Text = "47";
-            this.textBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox37
-            // 
-            this.textBox37.BackColor = System.Drawing.Color.Black;
-            this.textBox37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox37.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox37.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox37.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox37.Location = new System.Drawing.Point(460, 283);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.ReadOnly = true;
-            this.textBox37.Size = new System.Drawing.Size(58, 51);
-            this.textBox37.TabIndex = 47;
-            this.textBox37.Text = "48";
-            this.textBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox38
-            // 
-            this.textBox38.BackColor = System.Drawing.Color.Black;
-            this.textBox38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox38.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox38.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox38.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox38.Location = new System.Drawing.Point(524, 283);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.ReadOnly = true;
-            this.textBox38.Size = new System.Drawing.Size(58, 51);
-            this.textBox38.TabIndex = 48;
-            this.textBox38.Text = "49";
-            this.textBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox39
-            // 
-            this.textBox39.BackColor = System.Drawing.Color.Black;
-            this.textBox39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox39.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox39.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox39.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox39.Location = new System.Drawing.Point(588, 283);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.ReadOnly = true;
-            this.textBox39.Size = new System.Drawing.Size(58, 51);
-            this.textBox39.TabIndex = 49;
-            this.textBox39.Text = "50";
-            this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox40
-            // 
-            this.textBox40.BackColor = System.Drawing.Color.Black;
-            this.textBox40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox40.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox40.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox40.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox40.Location = new System.Drawing.Point(12, 356);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.ReadOnly = true;
-            this.textBox40.Size = new System.Drawing.Size(58, 51);
-            this.textBox40.TabIndex = 50;
-            this.textBox40.Text = "51";
-            this.textBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox41
-            // 
-            this.textBox41.BackColor = System.Drawing.Color.Black;
-            this.textBox41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox41.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox41.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox41.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox41.Location = new System.Drawing.Point(76, 356);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.ReadOnly = true;
-            this.textBox41.Size = new System.Drawing.Size(58, 51);
-            this.textBox41.TabIndex = 51;
-            this.textBox41.Text = "52";
-            this.textBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox42
-            // 
-            this.textBox42.BackColor = System.Drawing.Color.Black;
-            this.textBox42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox42.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox42.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox42.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox42.Location = new System.Drawing.Point(140, 356);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.ReadOnly = true;
-            this.textBox42.Size = new System.Drawing.Size(58, 51);
-            this.textBox42.TabIndex = 52;
-            this.textBox42.Text = "53";
-            this.textBox42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox43
-            // 
-            this.textBox43.BackColor = System.Drawing.Color.Black;
-            this.textBox43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox43.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox43.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox43.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox43.Location = new System.Drawing.Point(204, 356);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.ReadOnly = true;
-            this.textBox43.Size = new System.Drawing.Size(58, 51);
-            this.textBox43.TabIndex = 53;
-            this.textBox43.Text = "54";
-            this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox44
-            // 
-            this.textBox44.BackColor = System.Drawing.Color.Black;
-            this.textBox44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox44.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox44.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox44.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox44.Location = new System.Drawing.Point(268, 356);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.ReadOnly = true;
-            this.textBox44.Size = new System.Drawing.Size(58, 51);
-            this.textBox44.TabIndex = 54;
-            this.textBox44.Text = "55";
-            this.textBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox45
-            // 
-            this.textBox45.BackColor = System.Drawing.Color.Black;
-            this.textBox45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox45.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox45.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox45.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox45.Location = new System.Drawing.Point(332, 356);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.ReadOnly = true;
-            this.textBox45.Size = new System.Drawing.Size(58, 51);
-            this.textBox45.TabIndex = 55;
-            this.textBox45.Text = "56";
-            this.textBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox46
-            // 
-            this.textBox46.BackColor = System.Drawing.Color.Black;
-            this.textBox46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox46.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox46.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox46.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox46.Location = new System.Drawing.Point(396, 356);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.ReadOnly = true;
-            this.textBox46.Size = new System.Drawing.Size(58, 51);
-            this.textBox46.TabIndex = 56;
-            this.textBox46.Text = "57";
-            this.textBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox47
-            // 
-            this.textBox47.BackColor = System.Drawing.Color.Black;
-            this.textBox47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox47.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox47.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox47.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox47.Location = new System.Drawing.Point(460, 356);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.ReadOnly = true;
-            this.textBox47.Size = new System.Drawing.Size(58, 51);
-            this.textBox47.TabIndex = 57;
-            this.textBox47.Text = "58";
-            this.textBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox48
-            // 
-            this.textBox48.BackColor = System.Drawing.Color.Black;
-            this.textBox48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox48.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox48.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox48.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox48.Location = new System.Drawing.Point(524, 356);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.ReadOnly = true;
-            this.textBox48.Size = new System.Drawing.Size(58, 51);
-            this.textBox48.TabIndex = 58;
-            this.textBox48.Text = "59";
-            this.textBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox49
-            // 
-            this.textBox49.BackColor = System.Drawing.Color.Black;
-            this.textBox49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox49.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox49.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox49.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox49.Location = new System.Drawing.Point(588, 356);
-            this.textBox49.Name = "textBox49";
-            this.textBox49.ReadOnly = true;
-            this.textBox49.Size = new System.Drawing.Size(58, 51);
-            this.textBox49.TabIndex = 59;
-            this.textBox49.Text = "60";
-            this.textBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox50
-            // 
-            this.textBox50.BackColor = System.Drawing.Color.Black;
-            this.textBox50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox50.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox50.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox50.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox50.Location = new System.Drawing.Point(12, 430);
-            this.textBox50.Name = "textBox50";
-            this.textBox50.ReadOnly = true;
-            this.textBox50.Size = new System.Drawing.Size(58, 51);
-            this.textBox50.TabIndex = 60;
-            this.textBox50.Text = "61";
-            this.textBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox51
-            // 
-            this.textBox51.BackColor = System.Drawing.Color.Black;
-            this.textBox51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox51.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox51.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox51.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox51.Location = new System.Drawing.Point(76, 430);
-            this.textBox51.Name = "textBox51";
-            this.textBox51.ReadOnly = true;
-            this.textBox51.Size = new System.Drawing.Size(58, 51);
-            this.textBox51.TabIndex = 61;
-            this.textBox51.Text = "62";
-            this.textBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox52
-            // 
-            this.textBox52.BackColor = System.Drawing.Color.Black;
-            this.textBox52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox52.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox52.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox52.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox52.Location = new System.Drawing.Point(140, 430);
-            this.textBox52.Name = "textBox52";
-            this.textBox52.ReadOnly = true;
-            this.textBox52.Size = new System.Drawing.Size(58, 51);
-            this.textBox52.TabIndex = 62;
-            this.textBox52.Text = "63";
-            this.textBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox53
-            // 
-            this.textBox53.BackColor = System.Drawing.Color.Black;
-            this.textBox53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox53.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox53.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox53.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox53.Location = new System.Drawing.Point(204, 430);
-            this.textBox53.Name = "textBox53";
-            this.textBox53.ReadOnly = true;
-            this.textBox53.Size = new System.Drawing.Size(58, 51);
-            this.textBox53.TabIndex = 63;
-            this.textBox53.Text = "64";
-            this.textBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox54
-            // 
-            this.textBox54.BackColor = System.Drawing.Color.Black;
-            this.textBox54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox54.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox54.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox54.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox54.Location = new System.Drawing.Point(268, 430);
-            this.textBox54.Name = "textBox54";
-            this.textBox54.ReadOnly = true;
-            this.textBox54.Size = new System.Drawing.Size(58, 51);
-            this.textBox54.TabIndex = 64;
-            this.textBox54.Text = "65";
-            this.textBox54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox55
-            // 
-            this.textBox55.BackColor = System.Drawing.Color.Black;
-            this.textBox55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox55.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox55.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox55.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox55.Location = new System.Drawing.Point(332, 430);
-            this.textBox55.Name = "textBox55";
-            this.textBox55.ReadOnly = true;
-            this.textBox55.Size = new System.Drawing.Size(58, 51);
-            this.textBox55.TabIndex = 65;
-            this.textBox55.Text = "66";
-            this.textBox55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox56
-            // 
-            this.textBox56.BackColor = System.Drawing.Color.Black;
-            this.textBox56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox56.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox56.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox56.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox56.Location = new System.Drawing.Point(396, 430);
-            this.textBox56.Name = "textBox56";
-            this.textBox56.ReadOnly = true;
-            this.textBox56.Size = new System.Drawing.Size(58, 51);
-            this.textBox56.TabIndex = 66;
-            this.textBox56.Text = "67";
-            this.textBox56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox57
-            // 
-            this.textBox57.BackColor = System.Drawing.Color.Black;
-            this.textBox57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox57.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox57.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox57.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox57.Location = new System.Drawing.Point(460, 430);
-            this.textBox57.Name = "textBox57";
-            this.textBox57.ReadOnly = true;
-            this.textBox57.Size = new System.Drawing.Size(58, 51);
-            this.textBox57.TabIndex = 67;
-            this.textBox57.Text = "68";
-            this.textBox57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox58
-            // 
-            this.textBox58.BackColor = System.Drawing.Color.Black;
-            this.textBox58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox58.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox58.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox58.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox58.Location = new System.Drawing.Point(524, 430);
-            this.textBox58.Name = "textBox58";
-            this.textBox58.ReadOnly = true;
-            this.textBox58.Size = new System.Drawing.Size(58, 51);
-            this.textBox58.TabIndex = 68;
-            this.textBox58.Text = "69";
-            this.textBox58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox59
-            // 
-            this.textBox59.BackColor = System.Drawing.Color.Black;
-            this.textBox59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox59.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox59.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox59.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox59.Location = new System.Drawing.Point(588, 430);
-            this.textBox59.Name = "textBox59";
-            this.textBox59.ReadOnly = true;
-            this.textBox59.Size = new System.Drawing.Size(58, 51);
-            this.textBox59.TabIndex = 69;
-            this.textBox59.Text = "70";
-            this.textBox59.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox60
-            // 
-            this.textBox60.BackColor = System.Drawing.Color.Black;
-            this.textBox60.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox60.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox60.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox60.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox60.Location = new System.Drawing.Point(12, 508);
-            this.textBox60.Name = "textBox60";
-            this.textBox60.ReadOnly = true;
-            this.textBox60.Size = new System.Drawing.Size(58, 51);
-            this.textBox60.TabIndex = 70;
-            this.textBox60.Text = "71";
-            this.textBox60.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox61
-            // 
-            this.textBox61.BackColor = System.Drawing.Color.Black;
-            this.textBox61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox61.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox61.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox61.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox61.Location = new System.Drawing.Point(76, 508);
-            this.textBox61.Name = "textBox61";
-            this.textBox61.ReadOnly = true;
-            this.textBox61.Size = new System.Drawing.Size(58, 51);
-            this.textBox61.TabIndex = 71;
-            this.textBox61.Text = "72";
-            this.textBox61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox62
-            // 
-            this.textBox62.BackColor = System.Drawing.Color.Black;
-            this.textBox62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox62.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox62.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox62.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox62.Location = new System.Drawing.Point(140, 508);
-            this.textBox62.Name = "textBox62";
-            this.textBox62.ReadOnly = true;
-            this.textBox62.Size = new System.Drawing.Size(58, 51);
-            this.textBox62.TabIndex = 72;
-            this.textBox62.Text = "73";
-            this.textBox62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox63
-            // 
-            this.textBox63.BackColor = System.Drawing.Color.Black;
-            this.textBox63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox63.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox63.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox63.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox63.Location = new System.Drawing.Point(204, 508);
-            this.textBox63.Name = "textBox63";
-            this.textBox63.ReadOnly = true;
-            this.textBox63.Size = new System.Drawing.Size(58, 51);
-            this.textBox63.TabIndex = 73;
-            this.textBox63.Text = "74";
-            this.textBox63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox64
-            // 
-            this.textBox64.BackColor = System.Drawing.Color.Black;
-            this.textBox64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox64.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox64.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox64.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox64.Location = new System.Drawing.Point(268, 508);
-            this.textBox64.Name = "textBox64";
-            this.textBox64.ReadOnly = true;
-            this.textBox64.Size = new System.Drawing.Size(58, 51);
-            this.textBox64.TabIndex = 74;
-            this.textBox64.Text = "75";
-            this.textBox64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox65
-            // 
-            this.textBox65.BackColor = System.Drawing.Color.Black;
-            this.textBox65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox65.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox65.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox65.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox65.Location = new System.Drawing.Point(332, 508);
-            this.textBox65.Name = "textBox65";
-            this.textBox65.ReadOnly = true;
-            this.textBox65.Size = new System.Drawing.Size(58, 51);
-            this.textBox65.TabIndex = 75;
-            this.textBox65.Text = "76";
-            this.textBox65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox66
-            // 
-            this.textBox66.BackColor = System.Drawing.Color.Black;
-            this.textBox66.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox66.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox66.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox66.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox66.Location = new System.Drawing.Point(396, 508);
-            this.textBox66.Name = "textBox66";
-            this.textBox66.ReadOnly = true;
-            this.textBox66.Size = new System.Drawing.Size(58, 51);
-            this.textBox66.TabIndex = 76;
-            this.textBox66.Text = "77";
-            this.textBox66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox67
-            // 
-            this.textBox67.BackColor = System.Drawing.Color.Black;
-            this.textBox67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox67.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox67.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox67.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox67.Location = new System.Drawing.Point(460, 508);
-            this.textBox67.Name = "textBox67";
-            this.textBox67.ReadOnly = true;
-            this.textBox67.Size = new System.Drawing.Size(58, 51);
-            this.textBox67.TabIndex = 77;
-            this.textBox67.Text = "78";
-            this.textBox67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox68
-            // 
-            this.textBox68.BackColor = System.Drawing.Color.Black;
-            this.textBox68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox68.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox68.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox68.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox68.Location = new System.Drawing.Point(524, 508);
-            this.textBox68.Name = "textBox68";
-            this.textBox68.ReadOnly = true;
-            this.textBox68.Size = new System.Drawing.Size(58, 51);
-            this.textBox68.TabIndex = 78;
-            this.textBox68.Text = "79";
-            this.textBox68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox69
-            // 
-            this.textBox69.BackColor = System.Drawing.Color.Black;
-            this.textBox69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox69.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox69.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox69.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox69.Location = new System.Drawing.Point(588, 508);
-            this.textBox69.Name = "textBox69";
-            this.textBox69.ReadOnly = true;
-            this.textBox69.Size = new System.Drawing.Size(58, 51);
-            this.textBox69.TabIndex = 79;
-            this.textBox69.Text = "80";
-            this.textBox69.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox70
-            // 
-            this.textBox70.BackColor = System.Drawing.Color.Black;
-            this.textBox70.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox70.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox70.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox70.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox70.Location = new System.Drawing.Point(12, 585);
-            this.textBox70.Name = "textBox70";
-            this.textBox70.ReadOnly = true;
-            this.textBox70.Size = new System.Drawing.Size(58, 51);
-            this.textBox70.TabIndex = 80;
-            this.textBox70.Text = "81";
-            this.textBox70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox71
-            // 
-            this.textBox71.BackColor = System.Drawing.Color.Black;
-            this.textBox71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox71.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox71.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox71.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox71.Location = new System.Drawing.Point(76, 585);
-            this.textBox71.Name = "textBox71";
-            this.textBox71.ReadOnly = true;
-            this.textBox71.Size = new System.Drawing.Size(58, 51);
-            this.textBox71.TabIndex = 81;
-            this.textBox71.Text = "82";
-            this.textBox71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox72
-            // 
-            this.textBox72.BackColor = System.Drawing.Color.Black;
-            this.textBox72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox72.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox72.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox72.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox72.Location = new System.Drawing.Point(140, 585);
-            this.textBox72.Name = "textBox72";
-            this.textBox72.ReadOnly = true;
-            this.textBox72.Size = new System.Drawing.Size(58, 51);
-            this.textBox72.TabIndex = 82;
-            this.textBox72.Text = "83";
-            this.textBox72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox73
-            // 
-            this.textBox73.BackColor = System.Drawing.Color.Black;
-            this.textBox73.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox73.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox73.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox73.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox73.Location = new System.Drawing.Point(204, 585);
-            this.textBox73.Name = "textBox73";
-            this.textBox73.ReadOnly = true;
-            this.textBox73.Size = new System.Drawing.Size(58, 51);
-            this.textBox73.TabIndex = 83;
-            this.textBox73.Text = "84";
-            this.textBox73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox74
-            // 
-            this.textBox74.BackColor = System.Drawing.Color.Black;
-            this.textBox74.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox74.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox74.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox74.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox74.Location = new System.Drawing.Point(268, 585);
-            this.textBox74.Name = "textBox74";
-            this.textBox74.ReadOnly = true;
-            this.textBox74.Size = new System.Drawing.Size(58, 51);
-            this.textBox74.TabIndex = 84;
-            this.textBox74.Text = "85";
-            this.textBox74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox75
-            // 
-            this.textBox75.BackColor = System.Drawing.Color.Black;
-            this.textBox75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox75.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox75.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox75.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox75.Location = new System.Drawing.Point(332, 585);
-            this.textBox75.Name = "textBox75";
-            this.textBox75.ReadOnly = true;
-            this.textBox75.Size = new System.Drawing.Size(58, 51);
-            this.textBox75.TabIndex = 85;
-            this.textBox75.Text = "86";
-            this.textBox75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox76
-            // 
-            this.textBox76.BackColor = System.Drawing.Color.Black;
-            this.textBox76.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox76.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox76.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox76.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox76.Location = new System.Drawing.Point(396, 585);
-            this.textBox76.Name = "textBox76";
-            this.textBox76.ReadOnly = true;
-            this.textBox76.Size = new System.Drawing.Size(58, 51);
-            this.textBox76.TabIndex = 86;
-            this.textBox76.Text = "87";
-            this.textBox76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox77
-            // 
-            this.textBox77.BackColor = System.Drawing.Color.Black;
-            this.textBox77.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox77.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox77.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox77.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox77.Location = new System.Drawing.Point(460, 585);
-            this.textBox77.Name = "textBox77";
-            this.textBox77.ReadOnly = true;
-            this.textBox77.Size = new System.Drawing.Size(58, 51);
-            this.textBox77.TabIndex = 87;
-            this.textBox77.Text = "88";
-            this.textBox77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox78
-            // 
-            this.textBox78.BackColor = System.Drawing.Color.Black;
-            this.textBox78.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox78.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox78.Font = new System.Drawing.Font("Segoe UI", 24.75F);
-            this.textBox78.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox78.Location = new System.Drawing.Point(524, 585);
-            this.textBox78.Name = "textBox78";
-            this.textBox78.ReadOnly = true;
-            this.textBox78.Size = new System.Drawing.Size(58, 51);
-            this.textBox78.TabIndex = 88;
-            this.textBox78.Text = "89";
-            this.textBox78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // txtBola26
+            // 
+            this.txtBola26.BackColor = System.Drawing.Color.Black;
+            this.txtBola26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola26.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola26.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola26.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola26.Location = new System.Drawing.Point(302, 114);
+            this.txtBola26.Name = "txtBola26";
+            this.txtBola26.ReadOnly = true;
+            this.txtBola26.Size = new System.Drawing.Size(58, 51);
+            this.txtBola26.TabIndex = 25;
+            this.txtBola26.Text = "26";
+            this.txtBola26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola27
+            // 
+            this.txtBola27.BackColor = System.Drawing.Color.Black;
+            this.txtBola27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola27.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola27.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola27.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola27.Location = new System.Drawing.Point(360, 114);
+            this.txtBola27.Name = "txtBola27";
+            this.txtBola27.ReadOnly = true;
+            this.txtBola27.Size = new System.Drawing.Size(58, 51);
+            this.txtBola27.TabIndex = 26;
+            this.txtBola27.Text = "27";
+            this.txtBola27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola28
+            // 
+            this.txtBola28.BackColor = System.Drawing.Color.Black;
+            this.txtBola28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola28.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola28.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola28.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola28.Location = new System.Drawing.Point(418, 114);
+            this.txtBola28.Name = "txtBola28";
+            this.txtBola28.ReadOnly = true;
+            this.txtBola28.Size = new System.Drawing.Size(58, 51);
+            this.txtBola28.TabIndex = 27;
+            this.txtBola28.Text = "28";
+            this.txtBola28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola29
+            // 
+            this.txtBola29.BackColor = System.Drawing.Color.Black;
+            this.txtBola29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola29.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola29.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola29.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola29.Location = new System.Drawing.Point(476, 114);
+            this.txtBola29.Name = "txtBola29";
+            this.txtBola29.ReadOnly = true;
+            this.txtBola29.Size = new System.Drawing.Size(58, 51);
+            this.txtBola29.TabIndex = 28;
+            this.txtBola29.Text = "29";
+            this.txtBola29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola30
+            // 
+            this.txtBola30.BackColor = System.Drawing.Color.Black;
+            this.txtBola30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola30.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola30.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola30.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola30.Location = new System.Drawing.Point(534, 114);
+            this.txtBola30.Name = "txtBola30";
+            this.txtBola30.ReadOnly = true;
+            this.txtBola30.Size = new System.Drawing.Size(58, 51);
+            this.txtBola30.TabIndex = 29;
+            this.txtBola30.Text = "30";
+            this.txtBola30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola31
+            // 
+            this.txtBola31.BackColor = System.Drawing.Color.Black;
+            this.txtBola31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola31.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola31.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola31.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola31.Location = new System.Drawing.Point(12, 165);
+            this.txtBola31.Name = "txtBola31";
+            this.txtBola31.ReadOnly = true;
+            this.txtBola31.Size = new System.Drawing.Size(58, 51);
+            this.txtBola31.TabIndex = 30;
+            this.txtBola31.Text = "31";
+            this.txtBola31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola32
+            // 
+            this.txtBola32.BackColor = System.Drawing.Color.Black;
+            this.txtBola32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola32.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola32.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola32.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola32.Location = new System.Drawing.Point(70, 165);
+            this.txtBola32.Name = "txtBola32";
+            this.txtBola32.ReadOnly = true;
+            this.txtBola32.Size = new System.Drawing.Size(58, 51);
+            this.txtBola32.TabIndex = 31;
+            this.txtBola32.Text = "32";
+            this.txtBola32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola33
+            // 
+            this.txtBola33.BackColor = System.Drawing.Color.Black;
+            this.txtBola33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola33.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola33.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola33.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola33.Location = new System.Drawing.Point(128, 165);
+            this.txtBola33.Name = "txtBola33";
+            this.txtBola33.ReadOnly = true;
+            this.txtBola33.Size = new System.Drawing.Size(58, 51);
+            this.txtBola33.TabIndex = 32;
+            this.txtBola33.Text = "33";
+            this.txtBola33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola34
+            // 
+            this.txtBola34.BackColor = System.Drawing.Color.Black;
+            this.txtBola34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola34.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola34.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola34.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola34.Location = new System.Drawing.Point(186, 165);
+            this.txtBola34.Name = "txtBola34";
+            this.txtBola34.ReadOnly = true;
+            this.txtBola34.Size = new System.Drawing.Size(58, 51);
+            this.txtBola34.TabIndex = 33;
+            this.txtBola34.Text = "34";
+            this.txtBola34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola35
+            // 
+            this.txtBola35.BackColor = System.Drawing.Color.Black;
+            this.txtBola35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola35.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola35.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola35.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola35.Location = new System.Drawing.Point(244, 165);
+            this.txtBola35.Name = "txtBola35";
+            this.txtBola35.ReadOnly = true;
+            this.txtBola35.Size = new System.Drawing.Size(58, 51);
+            this.txtBola35.TabIndex = 34;
+            this.txtBola35.Text = "35";
+            this.txtBola35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola36
+            // 
+            this.txtBola36.BackColor = System.Drawing.Color.Black;
+            this.txtBola36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola36.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola36.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola36.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola36.Location = new System.Drawing.Point(302, 165);
+            this.txtBola36.Name = "txtBola36";
+            this.txtBola36.ReadOnly = true;
+            this.txtBola36.Size = new System.Drawing.Size(58, 51);
+            this.txtBola36.TabIndex = 35;
+            this.txtBola36.Text = "36";
+            this.txtBola36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola37
+            // 
+            this.txtBola37.BackColor = System.Drawing.Color.Black;
+            this.txtBola37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola37.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola37.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola37.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola37.Location = new System.Drawing.Point(360, 165);
+            this.txtBola37.Name = "txtBola37";
+            this.txtBola37.ReadOnly = true;
+            this.txtBola37.Size = new System.Drawing.Size(58, 51);
+            this.txtBola37.TabIndex = 36;
+            this.txtBola37.Text = "37";
+            this.txtBola37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola38
+            // 
+            this.txtBola38.BackColor = System.Drawing.Color.Black;
+            this.txtBola38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola38.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola38.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola38.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola38.Location = new System.Drawing.Point(418, 165);
+            this.txtBola38.Name = "txtBola38";
+            this.txtBola38.ReadOnly = true;
+            this.txtBola38.Size = new System.Drawing.Size(58, 51);
+            this.txtBola38.TabIndex = 37;
+            this.txtBola38.Text = "38";
+            this.txtBola38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola39
+            // 
+            this.txtBola39.BackColor = System.Drawing.Color.Black;
+            this.txtBola39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola39.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola39.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola39.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola39.Location = new System.Drawing.Point(476, 165);
+            this.txtBola39.Name = "txtBola39";
+            this.txtBola39.ReadOnly = true;
+            this.txtBola39.Size = new System.Drawing.Size(58, 51);
+            this.txtBola39.TabIndex = 38;
+            this.txtBola39.Text = "39";
+            this.txtBola39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola40
+            // 
+            this.txtBola40.BackColor = System.Drawing.Color.Black;
+            this.txtBola40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola40.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola40.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola40.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola40.Location = new System.Drawing.Point(534, 165);
+            this.txtBola40.Name = "txtBola40";
+            this.txtBola40.ReadOnly = true;
+            this.txtBola40.Size = new System.Drawing.Size(58, 51);
+            this.txtBola40.TabIndex = 39;
+            this.txtBola40.Text = "40";
+            this.txtBola40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola41
+            // 
+            this.txtBola41.BackColor = System.Drawing.Color.Black;
+            this.txtBola41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola41.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola41.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola41.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola41.Location = new System.Drawing.Point(12, 216);
+            this.txtBola41.Name = "txtBola41";
+            this.txtBola41.ReadOnly = true;
+            this.txtBola41.Size = new System.Drawing.Size(58, 51);
+            this.txtBola41.TabIndex = 40;
+            this.txtBola41.Text = "41";
+            this.txtBola41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola42
+            // 
+            this.txtBola42.BackColor = System.Drawing.Color.Black;
+            this.txtBola42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola42.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola42.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola42.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola42.Location = new System.Drawing.Point(70, 216);
+            this.txtBola42.Name = "txtBola42";
+            this.txtBola42.ReadOnly = true;
+            this.txtBola42.Size = new System.Drawing.Size(58, 51);
+            this.txtBola42.TabIndex = 41;
+            this.txtBola42.Text = "42";
+            this.txtBola42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola43
+            // 
+            this.txtBola43.BackColor = System.Drawing.Color.Black;
+            this.txtBola43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola43.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola43.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola43.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola43.Location = new System.Drawing.Point(128, 216);
+            this.txtBola43.Name = "txtBola43";
+            this.txtBola43.ReadOnly = true;
+            this.txtBola43.Size = new System.Drawing.Size(58, 51);
+            this.txtBola43.TabIndex = 42;
+            this.txtBola43.Text = "43";
+            this.txtBola43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola44
+            // 
+            this.txtBola44.BackColor = System.Drawing.Color.Black;
+            this.txtBola44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola44.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola44.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola44.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola44.Location = new System.Drawing.Point(186, 216);
+            this.txtBola44.Name = "txtBola44";
+            this.txtBola44.ReadOnly = true;
+            this.txtBola44.Size = new System.Drawing.Size(58, 51);
+            this.txtBola44.TabIndex = 43;
+            this.txtBola44.Text = "44";
+            this.txtBola44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola45
+            // 
+            this.txtBola45.BackColor = System.Drawing.Color.Black;
+            this.txtBola45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola45.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola45.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola45.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola45.Location = new System.Drawing.Point(244, 216);
+            this.txtBola45.Name = "txtBola45";
+            this.txtBola45.ReadOnly = true;
+            this.txtBola45.Size = new System.Drawing.Size(58, 51);
+            this.txtBola45.TabIndex = 44;
+            this.txtBola45.Text = "45";
+            this.txtBola45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola46
+            // 
+            this.txtBola46.BackColor = System.Drawing.Color.Black;
+            this.txtBola46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola46.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola46.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola46.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola46.Location = new System.Drawing.Point(302, 216);
+            this.txtBola46.Name = "txtBola46";
+            this.txtBola46.ReadOnly = true;
+            this.txtBola46.Size = new System.Drawing.Size(58, 51);
+            this.txtBola46.TabIndex = 45;
+            this.txtBola46.Text = "46";
+            this.txtBola46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola47
+            // 
+            this.txtBola47.BackColor = System.Drawing.Color.Black;
+            this.txtBola47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola47.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola47.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola47.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola47.Location = new System.Drawing.Point(360, 216);
+            this.txtBola47.Name = "txtBola47";
+            this.txtBola47.ReadOnly = true;
+            this.txtBola47.Size = new System.Drawing.Size(58, 51);
+            this.txtBola47.TabIndex = 46;
+            this.txtBola47.Text = "47";
+            this.txtBola47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola48
+            // 
+            this.txtBola48.BackColor = System.Drawing.Color.Black;
+            this.txtBola48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola48.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola48.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola48.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola48.Location = new System.Drawing.Point(418, 216);
+            this.txtBola48.Name = "txtBola48";
+            this.txtBola48.ReadOnly = true;
+            this.txtBola48.Size = new System.Drawing.Size(58, 51);
+            this.txtBola48.TabIndex = 47;
+            this.txtBola48.Text = "48";
+            this.txtBola48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola49
+            // 
+            this.txtBola49.BackColor = System.Drawing.Color.Black;
+            this.txtBola49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola49.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola49.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola49.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola49.Location = new System.Drawing.Point(476, 216);
+            this.txtBola49.Name = "txtBola49";
+            this.txtBola49.ReadOnly = true;
+            this.txtBola49.Size = new System.Drawing.Size(58, 51);
+            this.txtBola49.TabIndex = 48;
+            this.txtBola49.Text = "49";
+            this.txtBola49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola50
+            // 
+            this.txtBola50.BackColor = System.Drawing.Color.Black;
+            this.txtBola50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola50.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola50.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola50.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola50.Location = new System.Drawing.Point(534, 216);
+            this.txtBola50.Name = "txtBola50";
+            this.txtBola50.ReadOnly = true;
+            this.txtBola50.Size = new System.Drawing.Size(58, 51);
+            this.txtBola50.TabIndex = 49;
+            this.txtBola50.Text = "50";
+            this.txtBola50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola51
+            // 
+            this.txtBola51.BackColor = System.Drawing.Color.Black;
+            this.txtBola51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola51.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola51.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola51.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola51.Location = new System.Drawing.Point(12, 267);
+            this.txtBola51.Name = "txtBola51";
+            this.txtBola51.ReadOnly = true;
+            this.txtBola51.Size = new System.Drawing.Size(58, 51);
+            this.txtBola51.TabIndex = 50;
+            this.txtBola51.Text = "51";
+            this.txtBola51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola52
+            // 
+            this.txtBola52.BackColor = System.Drawing.Color.Black;
+            this.txtBola52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola52.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola52.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola52.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola52.Location = new System.Drawing.Point(70, 267);
+            this.txtBola52.Name = "txtBola52";
+            this.txtBola52.ReadOnly = true;
+            this.txtBola52.Size = new System.Drawing.Size(58, 51);
+            this.txtBola52.TabIndex = 51;
+            this.txtBola52.Text = "52";
+            this.txtBola52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola53
+            // 
+            this.txtBola53.BackColor = System.Drawing.Color.Black;
+            this.txtBola53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola53.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola53.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola53.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola53.Location = new System.Drawing.Point(128, 267);
+            this.txtBola53.Name = "txtBola53";
+            this.txtBola53.ReadOnly = true;
+            this.txtBola53.Size = new System.Drawing.Size(58, 51);
+            this.txtBola53.TabIndex = 52;
+            this.txtBola53.Text = "53";
+            this.txtBola53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola54
+            // 
+            this.txtBola54.BackColor = System.Drawing.Color.Black;
+            this.txtBola54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola54.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola54.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola54.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola54.Location = new System.Drawing.Point(186, 267);
+            this.txtBola54.Name = "txtBola54";
+            this.txtBola54.ReadOnly = true;
+            this.txtBola54.Size = new System.Drawing.Size(58, 51);
+            this.txtBola54.TabIndex = 53;
+            this.txtBola54.Text = "54";
+            this.txtBola54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola55
+            // 
+            this.txtBola55.BackColor = System.Drawing.Color.Black;
+            this.txtBola55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola55.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola55.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola55.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola55.Location = new System.Drawing.Point(244, 267);
+            this.txtBola55.Name = "txtBola55";
+            this.txtBola55.ReadOnly = true;
+            this.txtBola55.Size = new System.Drawing.Size(58, 51);
+            this.txtBola55.TabIndex = 54;
+            this.txtBola55.Text = "55";
+            this.txtBola55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola56
+            // 
+            this.txtBola56.BackColor = System.Drawing.Color.Black;
+            this.txtBola56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola56.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola56.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola56.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola56.Location = new System.Drawing.Point(302, 267);
+            this.txtBola56.Name = "txtBola56";
+            this.txtBola56.ReadOnly = true;
+            this.txtBola56.Size = new System.Drawing.Size(58, 51);
+            this.txtBola56.TabIndex = 55;
+            this.txtBola56.Text = "56";
+            this.txtBola56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola57
+            // 
+            this.txtBola57.BackColor = System.Drawing.Color.Black;
+            this.txtBola57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola57.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola57.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola57.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola57.Location = new System.Drawing.Point(360, 267);
+            this.txtBola57.Name = "txtBola57";
+            this.txtBola57.ReadOnly = true;
+            this.txtBola57.Size = new System.Drawing.Size(58, 51);
+            this.txtBola57.TabIndex = 56;
+            this.txtBola57.Text = "57";
+            this.txtBola57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola58
+            // 
+            this.txtBola58.BackColor = System.Drawing.Color.Black;
+            this.txtBola58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola58.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola58.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola58.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola58.Location = new System.Drawing.Point(418, 267);
+            this.txtBola58.Name = "txtBola58";
+            this.txtBola58.ReadOnly = true;
+            this.txtBola58.Size = new System.Drawing.Size(58, 51);
+            this.txtBola58.TabIndex = 57;
+            this.txtBola58.Text = "58";
+            this.txtBola58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola59
+            // 
+            this.txtBola59.BackColor = System.Drawing.Color.Black;
+            this.txtBola59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola59.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola59.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola59.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola59.Location = new System.Drawing.Point(476, 267);
+            this.txtBola59.Name = "txtBola59";
+            this.txtBola59.ReadOnly = true;
+            this.txtBola59.Size = new System.Drawing.Size(58, 51);
+            this.txtBola59.TabIndex = 58;
+            this.txtBola59.Text = "59";
+            this.txtBola59.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola60
+            // 
+            this.txtBola60.BackColor = System.Drawing.Color.Black;
+            this.txtBola60.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola60.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola60.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola60.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola60.Location = new System.Drawing.Point(534, 267);
+            this.txtBola60.Name = "txtBola60";
+            this.txtBola60.ReadOnly = true;
+            this.txtBola60.Size = new System.Drawing.Size(58, 51);
+            this.txtBola60.TabIndex = 59;
+            this.txtBola60.Text = "60";
+            this.txtBola60.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola61
+            // 
+            this.txtBola61.BackColor = System.Drawing.Color.Black;
+            this.txtBola61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola61.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola61.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola61.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola61.Location = new System.Drawing.Point(12, 318);
+            this.txtBola61.Name = "txtBola61";
+            this.txtBola61.ReadOnly = true;
+            this.txtBola61.Size = new System.Drawing.Size(58, 51);
+            this.txtBola61.TabIndex = 60;
+            this.txtBola61.Text = "61";
+            this.txtBola61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola62
+            // 
+            this.txtBola62.BackColor = System.Drawing.Color.Black;
+            this.txtBola62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola62.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola62.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola62.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola62.Location = new System.Drawing.Point(70, 318);
+            this.txtBola62.Name = "txtBola62";
+            this.txtBola62.ReadOnly = true;
+            this.txtBola62.Size = new System.Drawing.Size(58, 51);
+            this.txtBola62.TabIndex = 61;
+            this.txtBola62.Text = "62";
+            this.txtBola62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola63
+            // 
+            this.txtBola63.BackColor = System.Drawing.Color.Black;
+            this.txtBola63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola63.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola63.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola63.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola63.Location = new System.Drawing.Point(128, 318);
+            this.txtBola63.Name = "txtBola63";
+            this.txtBola63.ReadOnly = true;
+            this.txtBola63.Size = new System.Drawing.Size(58, 51);
+            this.txtBola63.TabIndex = 62;
+            this.txtBola63.Text = "63";
+            this.txtBola63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola64
+            // 
+            this.txtBola64.BackColor = System.Drawing.Color.Black;
+            this.txtBola64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola64.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola64.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola64.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola64.Location = new System.Drawing.Point(186, 318);
+            this.txtBola64.Name = "txtBola64";
+            this.txtBola64.ReadOnly = true;
+            this.txtBola64.Size = new System.Drawing.Size(58, 51);
+            this.txtBola64.TabIndex = 63;
+            this.txtBola64.Text = "64";
+            this.txtBola64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola65
+            // 
+            this.txtBola65.BackColor = System.Drawing.Color.Black;
+            this.txtBola65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola65.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola65.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola65.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola65.Location = new System.Drawing.Point(244, 318);
+            this.txtBola65.Name = "txtBola65";
+            this.txtBola65.ReadOnly = true;
+            this.txtBola65.Size = new System.Drawing.Size(58, 51);
+            this.txtBola65.TabIndex = 64;
+            this.txtBola65.Text = "65";
+            this.txtBola65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola66
+            // 
+            this.txtBola66.BackColor = System.Drawing.Color.Black;
+            this.txtBola66.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola66.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola66.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola66.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola66.Location = new System.Drawing.Point(302, 318);
+            this.txtBola66.Name = "txtBola66";
+            this.txtBola66.ReadOnly = true;
+            this.txtBola66.Size = new System.Drawing.Size(58, 51);
+            this.txtBola66.TabIndex = 65;
+            this.txtBola66.Text = "66";
+            this.txtBola66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola67
+            // 
+            this.txtBola67.BackColor = System.Drawing.Color.Black;
+            this.txtBola67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola67.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola67.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola67.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola67.Location = new System.Drawing.Point(360, 318);
+            this.txtBola67.Name = "txtBola67";
+            this.txtBola67.ReadOnly = true;
+            this.txtBola67.Size = new System.Drawing.Size(58, 51);
+            this.txtBola67.TabIndex = 66;
+            this.txtBola67.Text = "67";
+            this.txtBola67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola68
+            // 
+            this.txtBola68.BackColor = System.Drawing.Color.Black;
+            this.txtBola68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola68.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola68.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola68.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola68.Location = new System.Drawing.Point(418, 318);
+            this.txtBola68.Name = "txtBola68";
+            this.txtBola68.ReadOnly = true;
+            this.txtBola68.Size = new System.Drawing.Size(58, 51);
+            this.txtBola68.TabIndex = 67;
+            this.txtBola68.Text = "68";
+            this.txtBola68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola69
+            // 
+            this.txtBola69.BackColor = System.Drawing.Color.Black;
+            this.txtBola69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola69.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola69.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola69.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola69.Location = new System.Drawing.Point(476, 318);
+            this.txtBola69.Name = "txtBola69";
+            this.txtBola69.ReadOnly = true;
+            this.txtBola69.Size = new System.Drawing.Size(58, 51);
+            this.txtBola69.TabIndex = 68;
+            this.txtBola69.Text = "69";
+            this.txtBola69.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola70
+            // 
+            this.txtBola70.BackColor = System.Drawing.Color.Black;
+            this.txtBola70.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola70.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola70.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola70.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola70.Location = new System.Drawing.Point(534, 318);
+            this.txtBola70.Name = "txtBola70";
+            this.txtBola70.ReadOnly = true;
+            this.txtBola70.Size = new System.Drawing.Size(58, 51);
+            this.txtBola70.TabIndex = 69;
+            this.txtBola70.Text = "70";
+            this.txtBola70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola71
+            // 
+            this.txtBola71.BackColor = System.Drawing.Color.Black;
+            this.txtBola71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola71.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola71.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola71.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola71.Location = new System.Drawing.Point(12, 369);
+            this.txtBola71.Name = "txtBola71";
+            this.txtBola71.ReadOnly = true;
+            this.txtBola71.Size = new System.Drawing.Size(58, 51);
+            this.txtBola71.TabIndex = 70;
+            this.txtBola71.Text = "71";
+            this.txtBola71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola72
+            // 
+            this.txtBola72.BackColor = System.Drawing.Color.Black;
+            this.txtBola72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola72.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola72.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola72.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola72.Location = new System.Drawing.Point(70, 369);
+            this.txtBola72.Name = "txtBola72";
+            this.txtBola72.ReadOnly = true;
+            this.txtBola72.Size = new System.Drawing.Size(58, 51);
+            this.txtBola72.TabIndex = 71;
+            this.txtBola72.Text = "72";
+            this.txtBola72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola73
+            // 
+            this.txtBola73.BackColor = System.Drawing.Color.Black;
+            this.txtBola73.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola73.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola73.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola73.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola73.Location = new System.Drawing.Point(128, 369);
+            this.txtBola73.Name = "txtBola73";
+            this.txtBola73.ReadOnly = true;
+            this.txtBola73.Size = new System.Drawing.Size(58, 51);
+            this.txtBola73.TabIndex = 72;
+            this.txtBola73.Text = "73";
+            this.txtBola73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola74
+            // 
+            this.txtBola74.BackColor = System.Drawing.Color.Black;
+            this.txtBola74.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola74.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola74.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola74.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola74.Location = new System.Drawing.Point(186, 369);
+            this.txtBola74.Name = "txtBola74";
+            this.txtBola74.ReadOnly = true;
+            this.txtBola74.Size = new System.Drawing.Size(58, 51);
+            this.txtBola74.TabIndex = 73;
+            this.txtBola74.Text = "74";
+            this.txtBola74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola75
+            // 
+            this.txtBola75.BackColor = System.Drawing.Color.Black;
+            this.txtBola75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola75.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola75.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola75.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola75.Location = new System.Drawing.Point(244, 369);
+            this.txtBola75.Name = "txtBola75";
+            this.txtBola75.ReadOnly = true;
+            this.txtBola75.Size = new System.Drawing.Size(58, 51);
+            this.txtBola75.TabIndex = 74;
+            this.txtBola75.Text = "75";
+            this.txtBola75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola76
+            // 
+            this.txtBola76.BackColor = System.Drawing.Color.Black;
+            this.txtBola76.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola76.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola76.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola76.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola76.Location = new System.Drawing.Point(302, 369);
+            this.txtBola76.Name = "txtBola76";
+            this.txtBola76.ReadOnly = true;
+            this.txtBola76.Size = new System.Drawing.Size(58, 51);
+            this.txtBola76.TabIndex = 75;
+            this.txtBola76.Text = "76";
+            this.txtBola76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola77
+            // 
+            this.txtBola77.BackColor = System.Drawing.Color.Black;
+            this.txtBola77.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola77.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola77.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola77.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola77.Location = new System.Drawing.Point(360, 369);
+            this.txtBola77.Name = "txtBola77";
+            this.txtBola77.ReadOnly = true;
+            this.txtBola77.Size = new System.Drawing.Size(58, 51);
+            this.txtBola77.TabIndex = 76;
+            this.txtBola77.Text = "77";
+            this.txtBola77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola78
+            // 
+            this.txtBola78.BackColor = System.Drawing.Color.Black;
+            this.txtBola78.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola78.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola78.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola78.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola78.Location = new System.Drawing.Point(418, 369);
+            this.txtBola78.Name = "txtBola78";
+            this.txtBola78.ReadOnly = true;
+            this.txtBola78.Size = new System.Drawing.Size(58, 51);
+            this.txtBola78.TabIndex = 77;
+            this.txtBola78.Text = "78";
+            this.txtBola78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola79
+            // 
+            this.txtBola79.BackColor = System.Drawing.Color.Black;
+            this.txtBola79.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola79.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola79.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola79.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola79.Location = new System.Drawing.Point(476, 369);
+            this.txtBola79.Name = "txtBola79";
+            this.txtBola79.ReadOnly = true;
+            this.txtBola79.Size = new System.Drawing.Size(58, 51);
+            this.txtBola79.TabIndex = 78;
+            this.txtBola79.Text = "79";
+            this.txtBola79.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola80
+            // 
+            this.txtBola80.BackColor = System.Drawing.Color.Black;
+            this.txtBola80.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola80.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola80.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola80.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola80.Location = new System.Drawing.Point(534, 369);
+            this.txtBola80.Name = "txtBola80";
+            this.txtBola80.ReadOnly = true;
+            this.txtBola80.Size = new System.Drawing.Size(58, 51);
+            this.txtBola80.TabIndex = 79;
+            this.txtBola80.Text = "80";
+            this.txtBola80.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola81
+            // 
+            this.txtBola81.BackColor = System.Drawing.Color.Black;
+            this.txtBola81.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola81.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola81.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola81.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola81.Location = new System.Drawing.Point(12, 420);
+            this.txtBola81.Name = "txtBola81";
+            this.txtBola81.ReadOnly = true;
+            this.txtBola81.Size = new System.Drawing.Size(58, 51);
+            this.txtBola81.TabIndex = 80;
+            this.txtBola81.Text = "81";
+            this.txtBola81.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola82
+            // 
+            this.txtBola82.BackColor = System.Drawing.Color.Black;
+            this.txtBola82.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola82.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola82.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola82.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola82.Location = new System.Drawing.Point(70, 420);
+            this.txtBola82.Name = "txtBola82";
+            this.txtBola82.ReadOnly = true;
+            this.txtBola82.Size = new System.Drawing.Size(58, 51);
+            this.txtBola82.TabIndex = 81;
+            this.txtBola82.Text = "82";
+            this.txtBola82.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola83
+            // 
+            this.txtBola83.BackColor = System.Drawing.Color.Black;
+            this.txtBola83.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola83.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola83.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola83.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola83.Location = new System.Drawing.Point(128, 420);
+            this.txtBola83.Name = "txtBola83";
+            this.txtBola83.ReadOnly = true;
+            this.txtBola83.Size = new System.Drawing.Size(58, 51);
+            this.txtBola83.TabIndex = 82;
+            this.txtBola83.Text = "83";
+            this.txtBola83.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola84
+            // 
+            this.txtBola84.BackColor = System.Drawing.Color.Black;
+            this.txtBola84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola84.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola84.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola84.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola84.Location = new System.Drawing.Point(186, 420);
+            this.txtBola84.Name = "txtBola84";
+            this.txtBola84.ReadOnly = true;
+            this.txtBola84.Size = new System.Drawing.Size(58, 51);
+            this.txtBola84.TabIndex = 83;
+            this.txtBola84.Text = "84";
+            this.txtBola84.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola85
+            // 
+            this.txtBola85.BackColor = System.Drawing.Color.Black;
+            this.txtBola85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola85.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola85.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola85.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola85.Location = new System.Drawing.Point(244, 420);
+            this.txtBola85.Name = "txtBola85";
+            this.txtBola85.ReadOnly = true;
+            this.txtBola85.Size = new System.Drawing.Size(58, 51);
+            this.txtBola85.TabIndex = 84;
+            this.txtBola85.Text = "85";
+            this.txtBola85.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola86
+            // 
+            this.txtBola86.BackColor = System.Drawing.Color.Black;
+            this.txtBola86.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola86.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola86.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola86.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola86.Location = new System.Drawing.Point(302, 420);
+            this.txtBola86.Name = "txtBola86";
+            this.txtBola86.ReadOnly = true;
+            this.txtBola86.Size = new System.Drawing.Size(58, 51);
+            this.txtBola86.TabIndex = 85;
+            this.txtBola86.Text = "86";
+            this.txtBola86.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola87
+            // 
+            this.txtBola87.BackColor = System.Drawing.Color.Black;
+            this.txtBola87.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola87.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola87.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola87.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola87.Location = new System.Drawing.Point(360, 420);
+            this.txtBola87.Name = "txtBola87";
+            this.txtBola87.ReadOnly = true;
+            this.txtBola87.Size = new System.Drawing.Size(58, 51);
+            this.txtBola87.TabIndex = 86;
+            this.txtBola87.Text = "87";
+            this.txtBola87.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola88
+            // 
+            this.txtBola88.BackColor = System.Drawing.Color.Black;
+            this.txtBola88.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola88.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola88.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola88.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola88.Location = new System.Drawing.Point(418, 420);
+            this.txtBola88.Name = "txtBola88";
+            this.txtBola88.ReadOnly = true;
+            this.txtBola88.Size = new System.Drawing.Size(58, 51);
+            this.txtBola88.TabIndex = 87;
+            this.txtBola88.Text = "88";
+            this.txtBola88.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtBola89
+            // 
+            this.txtBola89.BackColor = System.Drawing.Color.Black;
+            this.txtBola89.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBola89.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtBola89.Font = new System.Drawing.Font("Segoe UI", 24.75F);
+            this.txtBola89.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBola89.Location = new System.Drawing.Point(476, 420);
+            this.txtBola89.Name = "txtBola89";
+            this.txtBola89.ReadOnly = true;
+            this.txtBola89.Size = new System.Drawing.Size(58, 51);
+            this.txtBola89.TabIndex = 88;
+            this.txtBola89.Text = "89";
+            this.txtBola89.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtBola90
             // 
@@ -1463,7 +1479,7 @@
             this.txtBola90.Cursor = System.Windows.Forms.Cursors.Default;
             this.txtBola90.Font = new System.Drawing.Font("Segoe UI", 24.75F);
             this.txtBola90.ForeColor = System.Drawing.Color.DimGray;
-            this.txtBola90.Location = new System.Drawing.Point(588, 585);
+            this.txtBola90.Location = new System.Drawing.Point(534, 420);
             this.txtBola90.Name = "txtBola90";
             this.txtBola90.ReadOnly = true;
             this.txtBola90.Size = new System.Drawing.Size(58, 51);
@@ -1471,76 +1487,250 @@
             this.txtBola90.Text = "90";
             this.txtBola90.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // picBola
+            // 
+            this.picBola.BackgroundImage = global::Bingo_2025_NF.Properties.Resources.fondo_bolas;
+            this.picBola.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picBola.Location = new System.Drawing.Point(598, 12);
+            this.picBola.Name = "picBola";
+            this.picBola.Size = new System.Drawing.Size(447, 351);
+            this.picBola.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBola.TabIndex = 90;
+            this.picBola.TabStop = false;
+            // 
+            // btnNuevoJuego
+            // 
+            this.btnNuevoJuego.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnNuevoJuego.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNuevoJuego.Font = new System.Drawing.Font("Segoe UI", 18F);
+            this.btnNuevoJuego.ForeColor = System.Drawing.Color.White;
+            this.btnNuevoJuego.Location = new System.Drawing.Point(943, 369);
+            this.btnNuevoJuego.Name = "btnNuevoJuego";
+            this.btnNuevoJuego.Size = new System.Drawing.Size(102, 102);
+            this.btnNuevoJuego.TabIndex = 91;
+            this.btnNuevoJuego.Text = "Nuevo Juego";
+            this.btnNuevoJuego.UseVisualStyleBackColor = false;
+            this.btnNuevoJuego.Click += new System.EventHandler(this.btnNuevoJuego_Click);
+            // 
+            // btnNuevaBola
+            // 
+            this.btnNuevaBola.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnNuevaBola.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNuevaBola.Font = new System.Drawing.Font("Segoe UI", 18F);
+            this.btnNuevaBola.ForeColor = System.Drawing.Color.White;
+            this.btnNuevaBola.Location = new System.Drawing.Point(598, 369);
+            this.btnNuevaBola.Name = "btnNuevaBola";
+            this.btnNuevaBola.Size = new System.Drawing.Size(102, 102);
+            this.btnNuevaBola.TabIndex = 92;
+            this.btnNuevaBola.Text = "Nueva Bola";
+            this.btnNuevaBola.UseVisualStyleBackColor = false;
+            this.btnNuevaBola.Visible = false;
+            this.btnNuevaBola.Click += new System.EventHandler(this.btnNuevaBola_Click);
+            // 
+            // lblJuegoEnRed
+            // 
+            this.lblJuegoEnRed.AutoSize = true;
+            this.lblJuegoEnRed.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblJuegoEnRed.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblJuegoEnRed.Location = new System.Drawing.Point(706, 369);
+            this.lblJuegoEnRed.Name = "lblJuegoEnRed";
+            this.lblJuegoEnRed.Size = new System.Drawing.Size(109, 17);
+            this.lblJuegoEnRed.TabIndex = 93;
+            this.lblJuegoEnRed.Text = "Juego en Red ->";
+            // 
+            // lblEstadoConexion
+            // 
+            this.lblEstadoConexion.AutoSize = true;
+            this.lblEstadoConexion.Location = new System.Drawing.Point(818, 369);
+            this.lblEstadoConexion.Name = "lblEstadoConexion";
+            this.lblEstadoConexion.Size = new System.Drawing.Size(106, 17);
+            this.lblEstadoConexion.TabIndex = 94;
+            this.lblEstadoConexion.Text = "Estado Conexión";
+            // 
+            // lblNombreJugador
+            // 
+            this.lblNombreJugador.AutoSize = true;
+            this.lblNombreJugador.Location = new System.Drawing.Point(706, 403);
+            this.lblNombreJugador.Name = "lblNombreJugador";
+            this.lblNombreJugador.Size = new System.Drawing.Size(109, 17);
+            this.lblNombreJugador.TabIndex = 95;
+            this.lblNombreJugador.Text = "Nombre Jugador";
+            // 
+            // txtNombreJugador
+            // 
+            this.txtNombreJugador.Location = new System.Drawing.Point(821, 400);
+            this.txtNombreJugador.Name = "txtNombreJugador";
+            this.txtNombreJugador.Size = new System.Drawing.Size(116, 25);
+            this.txtNombreJugador.TabIndex = 96;
+            // 
+            // lblIPServidor
+            // 
+            this.lblIPServidor.AutoSize = true;
+            this.lblIPServidor.Location = new System.Drawing.Point(706, 430);
+            this.lblIPServidor.Name = "lblIPServidor";
+            this.lblIPServidor.Size = new System.Drawing.Size(71, 17);
+            this.lblIPServidor.TabIndex = 97;
+            this.lblIPServidor.Text = "IP Servidor";
+            // 
+            // txtIPServidor
+            // 
+            this.txtIPServidor.Location = new System.Drawing.Point(821, 427);
+            this.txtIPServidor.Name = "txtIPServidor";
+            this.txtIPServidor.Size = new System.Drawing.Size(116, 25);
+            this.txtIPServidor.TabIndex = 98;
+            // 
+            // btnConectar
+            // 
+            this.btnConectar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnConectar.Location = new System.Drawing.Point(709, 448);
+            this.btnConectar.Name = "btnConectar";
+            this.btnConectar.Size = new System.Drawing.Size(68, 23);
+            this.btnConectar.TabIndex = 99;
+            this.btnConectar.Text = "Conectar";
+            this.btnConectar.UseVisualStyleBackColor = true;
+            this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
+            // 
+            // picEvento
+            // 
+            this.picEvento.Location = new System.Drawing.Point(598, 518);
+            this.picEvento.Name = "picEvento";
+            this.picEvento.Size = new System.Drawing.Size(447, 200);
+            this.picEvento.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picEvento.TabIndex = 100;
+            this.picEvento.TabStop = false;
+            // 
+            // txtNuevaBola
+            // 
+            this.txtNuevaBola.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.txtNuevaBola.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNuevaBola.Cursor = System.Windows.Forms.Cursors.Help;
+            this.txtNuevaBola.Font = new System.Drawing.Font("Segoe UI", 78.75F);
+            this.txtNuevaBola.ForeColor = System.Drawing.Color.White;
+            this.txtNuevaBola.Location = new System.Drawing.Point(418, 518);
+            this.txtNuevaBola.Name = "txtNuevaBola";
+            this.txtNuevaBola.ReadOnly = true;
+            this.txtNuevaBola.Size = new System.Drawing.Size(174, 140);
+            this.txtNuevaBola.TabIndex = 101;
+            this.txtNuevaBola.Text = "90";
+            this.txtNuevaBola.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNuevaBola.Visible = false;
+            // 
+            // txtContador
+            // 
+            this.txtContador.BackColor = System.Drawing.SystemColors.Window;
+            this.txtContador.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txtContador.Location = new System.Drawing.Point(455, 664);
+            this.txtContador.Name = "txtContador";
+            this.txtContador.ReadOnly = true;
+            this.txtContador.Size = new System.Drawing.Size(100, 25);
+            this.txtContador.TabIndex = 102;
+            this.txtContador.Visible = false;
+            // 
+            // tablePanelCarton
+            // 
+            this.tablePanelCarton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tablePanelCarton.BackgroundImage = global::Bingo_2025_NF.Properties.Resources.cartel_carton;
+            this.tablePanelCarton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tablePanelCarton.ColumnCount = 5;
+            this.tablePanelCarton.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tablePanelCarton.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tablePanelCarton.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tablePanelCarton.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tablePanelCarton.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tablePanelCarton.Location = new System.Drawing.Point(12, 518);
+            this.tablePanelCarton.Name = "tablePanelCarton";
+            this.tablePanelCarton.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.tablePanelCarton.RowCount = 3;
+            this.tablePanelCarton.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tablePanelCarton.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tablePanelCarton.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tablePanelCarton.Size = new System.Drawing.Size(400, 200);
+            this.tablePanelCarton.TabIndex = 103;
+            // 
             // frmBingo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1057, 730);
+            this.Controls.Add(this.tablePanelCarton);
+            this.Controls.Add(this.txtContador);
+            this.Controls.Add(this.txtNuevaBola);
+            this.Controls.Add(this.picEvento);
+            this.Controls.Add(this.btnConectar);
+            this.Controls.Add(this.txtIPServidor);
+            this.Controls.Add(this.lblIPServidor);
+            this.Controls.Add(this.txtNombreJugador);
+            this.Controls.Add(this.lblNombreJugador);
+            this.Controls.Add(this.lblEstadoConexion);
+            this.Controls.Add(this.lblJuegoEnRed);
+            this.Controls.Add(this.btnNuevaBola);
+            this.Controls.Add(this.btnNuevoJuego);
+            this.Controls.Add(this.picBola);
             this.Controls.Add(this.txtBola90);
-            this.Controls.Add(this.textBox78);
-            this.Controls.Add(this.textBox77);
-            this.Controls.Add(this.textBox76);
-            this.Controls.Add(this.textBox75);
-            this.Controls.Add(this.textBox74);
-            this.Controls.Add(this.textBox73);
-            this.Controls.Add(this.textBox72);
-            this.Controls.Add(this.textBox71);
-            this.Controls.Add(this.textBox70);
-            this.Controls.Add(this.textBox69);
-            this.Controls.Add(this.textBox68);
-            this.Controls.Add(this.textBox67);
-            this.Controls.Add(this.textBox66);
-            this.Controls.Add(this.textBox65);
-            this.Controls.Add(this.textBox64);
-            this.Controls.Add(this.textBox63);
-            this.Controls.Add(this.textBox62);
-            this.Controls.Add(this.textBox61);
-            this.Controls.Add(this.textBox60);
-            this.Controls.Add(this.textBox59);
-            this.Controls.Add(this.textBox58);
-            this.Controls.Add(this.textBox57);
-            this.Controls.Add(this.textBox56);
-            this.Controls.Add(this.textBox55);
-            this.Controls.Add(this.textBox54);
-            this.Controls.Add(this.textBox53);
-            this.Controls.Add(this.textBox52);
-            this.Controls.Add(this.textBox51);
-            this.Controls.Add(this.textBox50);
-            this.Controls.Add(this.textBox49);
-            this.Controls.Add(this.textBox48);
-            this.Controls.Add(this.textBox47);
-            this.Controls.Add(this.textBox46);
-            this.Controls.Add(this.textBox45);
-            this.Controls.Add(this.textBox44);
-            this.Controls.Add(this.textBox43);
-            this.Controls.Add(this.textBox42);
-            this.Controls.Add(this.textBox41);
-            this.Controls.Add(this.textBox40);
-            this.Controls.Add(this.textBox39);
-            this.Controls.Add(this.textBox38);
-            this.Controls.Add(this.textBox37);
-            this.Controls.Add(this.textBox36);
-            this.Controls.Add(this.textBox35);
-            this.Controls.Add(this.textBox34);
-            this.Controls.Add(this.textBox33);
-            this.Controls.Add(this.textBox32);
-            this.Controls.Add(this.textBox31);
-            this.Controls.Add(this.textBox30);
-            this.Controls.Add(this.textBox29);
-            this.Controls.Add(this.textBox28);
-            this.Controls.Add(this.textBox27);
-            this.Controls.Add(this.textBox26);
-            this.Controls.Add(this.textBox25);
-            this.Controls.Add(this.textBox24);
-            this.Controls.Add(this.textBox23);
-            this.Controls.Add(this.textBox22);
-            this.Controls.Add(this.textBox21);
-            this.Controls.Add(this.textBox20);
-            this.Controls.Add(this.textBox19);
-            this.Controls.Add(this.textBox18);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.txtBola89);
+            this.Controls.Add(this.txtBola88);
+            this.Controls.Add(this.txtBola87);
+            this.Controls.Add(this.txtBola86);
+            this.Controls.Add(this.txtBola85);
+            this.Controls.Add(this.txtBola84);
+            this.Controls.Add(this.txtBola83);
+            this.Controls.Add(this.txtBola82);
+            this.Controls.Add(this.txtBola81);
+            this.Controls.Add(this.txtBola80);
+            this.Controls.Add(this.txtBola79);
+            this.Controls.Add(this.txtBola78);
+            this.Controls.Add(this.txtBola77);
+            this.Controls.Add(this.txtBola76);
+            this.Controls.Add(this.txtBola75);
+            this.Controls.Add(this.txtBola74);
+            this.Controls.Add(this.txtBola73);
+            this.Controls.Add(this.txtBola72);
+            this.Controls.Add(this.txtBola71);
+            this.Controls.Add(this.txtBola70);
+            this.Controls.Add(this.txtBola69);
+            this.Controls.Add(this.txtBola68);
+            this.Controls.Add(this.txtBola67);
+            this.Controls.Add(this.txtBola66);
+            this.Controls.Add(this.txtBola65);
+            this.Controls.Add(this.txtBola64);
+            this.Controls.Add(this.txtBola63);
+            this.Controls.Add(this.txtBola62);
+            this.Controls.Add(this.txtBola61);
+            this.Controls.Add(this.txtBola60);
+            this.Controls.Add(this.txtBola59);
+            this.Controls.Add(this.txtBola58);
+            this.Controls.Add(this.txtBola57);
+            this.Controls.Add(this.txtBola56);
+            this.Controls.Add(this.txtBola55);
+            this.Controls.Add(this.txtBola54);
+            this.Controls.Add(this.txtBola53);
+            this.Controls.Add(this.txtBola52);
+            this.Controls.Add(this.txtBola51);
+            this.Controls.Add(this.txtBola50);
+            this.Controls.Add(this.txtBola49);
+            this.Controls.Add(this.txtBola48);
+            this.Controls.Add(this.txtBola47);
+            this.Controls.Add(this.txtBola46);
+            this.Controls.Add(this.txtBola45);
+            this.Controls.Add(this.txtBola44);
+            this.Controls.Add(this.txtBola43);
+            this.Controls.Add(this.txtBola42);
+            this.Controls.Add(this.txtBola41);
+            this.Controls.Add(this.txtBola40);
+            this.Controls.Add(this.txtBola39);
+            this.Controls.Add(this.txtBola38);
+            this.Controls.Add(this.txtBola37);
+            this.Controls.Add(this.txtBola36);
+            this.Controls.Add(this.txtBola35);
+            this.Controls.Add(this.txtBola34);
+            this.Controls.Add(this.txtBola33);
+            this.Controls.Add(this.txtBola32);
+            this.Controls.Add(this.txtBola31);
+            this.Controls.Add(this.txtBola30);
+            this.Controls.Add(this.txtBola29);
+            this.Controls.Add(this.txtBola28);
+            this.Controls.Add(this.txtBola27);
+            this.Controls.Add(this.txtBola26);
             this.Controls.Add(this.txtBola25);
             this.Controls.Add(this.txtBola24);
             this.Controls.Add(this.txtBola23);
@@ -1574,6 +1764,10 @@
             this.Name = "frmBingo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bingo 2025";
+            this.Load += new System.EventHandler(this.frmBingo_Load);
+            this.Shown += new System.EventHandler(this.frmBingo_Shown);
+            ((System.ComponentModel.ISupportInitialize)(this.picBola)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEvento)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1606,71 +1800,85 @@
         public System.Windows.Forms.TextBox txtBola23;
         public System.Windows.Forms.TextBox txtBola24;
         public System.Windows.Forms.TextBox txtBola25;
-        public System.Windows.Forms.TextBox textBox15;
-        public System.Windows.Forms.TextBox textBox16;
-        public System.Windows.Forms.TextBox textBox17;
-        public System.Windows.Forms.TextBox textBox18;
-        public System.Windows.Forms.TextBox textBox19;
-        public System.Windows.Forms.TextBox textBox20;
-        public System.Windows.Forms.TextBox textBox21;
-        public System.Windows.Forms.TextBox textBox22;
-        public System.Windows.Forms.TextBox textBox23;
-        public System.Windows.Forms.TextBox textBox24;
-        public System.Windows.Forms.TextBox textBox25;
-        public System.Windows.Forms.TextBox textBox26;
-        public System.Windows.Forms.TextBox textBox27;
-        public System.Windows.Forms.TextBox textBox28;
-        public System.Windows.Forms.TextBox textBox29;
-        public System.Windows.Forms.TextBox textBox30;
-        public System.Windows.Forms.TextBox textBox31;
-        public System.Windows.Forms.TextBox textBox32;
-        public System.Windows.Forms.TextBox textBox33;
-        public System.Windows.Forms.TextBox textBox34;
-        public System.Windows.Forms.TextBox textBox35;
-        public System.Windows.Forms.TextBox textBox36;
-        public System.Windows.Forms.TextBox textBox37;
-        public System.Windows.Forms.TextBox textBox38;
-        public System.Windows.Forms.TextBox textBox39;
-        public System.Windows.Forms.TextBox textBox40;
-        public System.Windows.Forms.TextBox textBox41;
-        public System.Windows.Forms.TextBox textBox42;
-        public System.Windows.Forms.TextBox textBox43;
-        public System.Windows.Forms.TextBox textBox44;
-        public System.Windows.Forms.TextBox textBox45;
-        public System.Windows.Forms.TextBox textBox46;
-        public System.Windows.Forms.TextBox textBox47;
-        public System.Windows.Forms.TextBox textBox48;
-        public System.Windows.Forms.TextBox textBox49;
-        public System.Windows.Forms.TextBox textBox50;
-        public System.Windows.Forms.TextBox textBox51;
-        public System.Windows.Forms.TextBox textBox52;
-        public System.Windows.Forms.TextBox textBox53;
-        public System.Windows.Forms.TextBox textBox54;
-        public System.Windows.Forms.TextBox textBox55;
-        public System.Windows.Forms.TextBox textBox56;
-        public System.Windows.Forms.TextBox textBox57;
-        public System.Windows.Forms.TextBox textBox58;
-        public System.Windows.Forms.TextBox textBox59;
-        public System.Windows.Forms.TextBox textBox60;
-        public System.Windows.Forms.TextBox textBox61;
-        public System.Windows.Forms.TextBox textBox62;
-        public System.Windows.Forms.TextBox textBox63;
-        public System.Windows.Forms.TextBox textBox64;
-        public System.Windows.Forms.TextBox textBox65;
-        public System.Windows.Forms.TextBox textBox66;
-        public System.Windows.Forms.TextBox textBox67;
-        public System.Windows.Forms.TextBox textBox68;
-        public System.Windows.Forms.TextBox textBox69;
-        public System.Windows.Forms.TextBox textBox70;
-        public System.Windows.Forms.TextBox textBox71;
-        public System.Windows.Forms.TextBox textBox72;
-        public System.Windows.Forms.TextBox textBox73;
-        public System.Windows.Forms.TextBox textBox74;
-        public System.Windows.Forms.TextBox textBox75;
-        public System.Windows.Forms.TextBox textBox76;
-        public System.Windows.Forms.TextBox textBox77;
-        public System.Windows.Forms.TextBox textBox78;
+        public System.Windows.Forms.TextBox txtBola26;
+        public System.Windows.Forms.TextBox txtBola27;
+        public System.Windows.Forms.TextBox txtBola28;
+        public System.Windows.Forms.TextBox txtBola29;
+        public System.Windows.Forms.TextBox txtBola30;
+        public System.Windows.Forms.TextBox txtBola31;
+        public System.Windows.Forms.TextBox txtBola32;
+        public System.Windows.Forms.TextBox txtBola33;
+        public System.Windows.Forms.TextBox txtBola34;
+        public System.Windows.Forms.TextBox txtBola35;
+        public System.Windows.Forms.TextBox txtBola36;
+        public System.Windows.Forms.TextBox txtBola37;
+        public System.Windows.Forms.TextBox txtBola38;
+        public System.Windows.Forms.TextBox txtBola39;
+        public System.Windows.Forms.TextBox txtBola40;
+        public System.Windows.Forms.TextBox txtBola41;
+        public System.Windows.Forms.TextBox txtBola42;
+        public System.Windows.Forms.TextBox txtBola43;
+        public System.Windows.Forms.TextBox txtBola44;
+        public System.Windows.Forms.TextBox txtBola45;
+        public System.Windows.Forms.TextBox txtBola46;
+        public System.Windows.Forms.TextBox txtBola47;
+        public System.Windows.Forms.TextBox txtBola48;
+        public System.Windows.Forms.TextBox txtBola49;
+        public System.Windows.Forms.TextBox txtBola50;
+        public System.Windows.Forms.TextBox txtBola51;
+        public System.Windows.Forms.TextBox txtBola52;
+        public System.Windows.Forms.TextBox txtBola53;
+        public System.Windows.Forms.TextBox txtBola54;
+        public System.Windows.Forms.TextBox txtBola55;
+        public System.Windows.Forms.TextBox txtBola56;
+        public System.Windows.Forms.TextBox txtBola57;
+        public System.Windows.Forms.TextBox txtBola58;
+        public System.Windows.Forms.TextBox txtBola59;
+        public System.Windows.Forms.TextBox txtBola60;
+        public System.Windows.Forms.TextBox txtBola61;
+        public System.Windows.Forms.TextBox txtBola62;
+        public System.Windows.Forms.TextBox txtBola63;
+        public System.Windows.Forms.TextBox txtBola64;
+        public System.Windows.Forms.TextBox txtBola65;
+        public System.Windows.Forms.TextBox txtBola66;
+        public System.Windows.Forms.TextBox txtBola67;
+        public System.Windows.Forms.TextBox txtBola68;
+        public System.Windows.Forms.TextBox txtBola69;
+        public System.Windows.Forms.TextBox txtBola70;
+        public System.Windows.Forms.TextBox txtBola71;
+        public System.Windows.Forms.TextBox txtBola72;
+        public System.Windows.Forms.TextBox txtBola73;
+        public System.Windows.Forms.TextBox txtBola74;
+        public System.Windows.Forms.TextBox txtBola75;
+        public System.Windows.Forms.TextBox txtBola76;
+        public System.Windows.Forms.TextBox txtBola77;
+        public System.Windows.Forms.TextBox txtBola78;
+        public System.Windows.Forms.TextBox txtBola79;
+        public System.Windows.Forms.TextBox txtBola80;
+        public System.Windows.Forms.TextBox txtBola81;
+        public System.Windows.Forms.TextBox txtBola82;
+        public System.Windows.Forms.TextBox txtBola83;
+        public System.Windows.Forms.TextBox txtBola84;
+        public System.Windows.Forms.TextBox txtBola85;
+        public System.Windows.Forms.TextBox txtBola86;
+        public System.Windows.Forms.TextBox txtBola87;
+        public System.Windows.Forms.TextBox txtBola88;
+        public System.Windows.Forms.TextBox txtBola89;
         public System.Windows.Forms.TextBox txtBola90;
+        private System.Windows.Forms.PictureBox picBola;
+        public System.Windows.Forms.Button btnNuevoJuego;
+        public System.Windows.Forms.Button btnNuevaBola;
+        private System.Windows.Forms.Label lblJuegoEnRed;
+        private System.Windows.Forms.Label lblEstadoConexion;
+        private System.Windows.Forms.Label lblNombreJugador;
+        private System.Windows.Forms.TextBox txtNombreJugador;
+        private System.Windows.Forms.Label lblIPServidor;
+        private System.Windows.Forms.TextBox txtIPServidor;
+        private System.Windows.Forms.Button btnConectar;
+        private System.Windows.Forms.PictureBox picEvento;
+        private System.Windows.Forms.TextBox txtNuevaBola;
+        public System.Windows.Forms.TextBox txtContador;
+        private System.Windows.Forms.TableLayoutPanel tablePanelCarton;
     }
 }
 
