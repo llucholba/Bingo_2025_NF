@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -27,48 +28,90 @@ namespace Bingo_2025_NF
             // Agregamos el host manualmente a la lista
             EnviarListaJugadores();
         }
+        public void DetenerServidor()
+        {
+            Console.WriteLine("El servidor se está cerrando...");
+
+            // Avisar a todos los clientes que el servidor se cierra
+            EnviarATodos("SERVIDOR_CERRADO");
+
+            // Cerrar todas las conexiones activas
+            foreach (TcpClient cliente in clientes.Keys.ToList())
+            {
+                if (cliente.Connected) {
+                    cliente.Close();
+                }
+            }
+
+            clientes.Clear(); // Vaciar la lista de clientes
+            servidor.Stop();  // Detener el servidor
+            Console.WriteLine("Servidor detenido.");
+        }
 
         private void EscucharClientes()
         {
             while (true)
             {
-                TcpClient cliente = servidor.AcceptTcpClient();
-                Thread hiloCliente = new Thread(() => ManejarCliente(cliente));
-                hiloCliente.Start();
+                try
+                {
+                    TcpClient cliente = servidor.AcceptTcpClient();
+                    Thread hiloCliente = new Thread(() => ManejarCliente(cliente));
+                    hiloCliente.Start();
+                }
+                catch (SocketException ex)
+                {
+                    // Log or handle the exception as needed
+                    Console.WriteLine($"SocketException: {ex.Message}");
+                    break; // Optionally break the loop if needed
+                }
             }
         }
 
         private void ManejarCliente(TcpClient cliente)
         {
-            NetworkStream stream = cliente.GetStream();
-            byte[] buffer = new byte[256];
-            int bytesLeidos = stream.Read(buffer, 0, buffer.Length);
-            string nombreCliente = Encoding.UTF8.GetString(buffer, 0, bytesLeidos).Trim();
-
-            if (!clientes.ContainsValue(nombreCliente))
-            {
-                clientes.Add(cliente, nombreCliente);
-                Console.WriteLine("Nuevo jugador conectado: " + nombreCliente);
-                EnviarListaJugadores();
-            }
-
+            string nombreCliente = "";
             try
             {
-                while ((bytesLeidos = stream.Read(buffer, 0, buffer.Length)) != 0)
+                NetworkStream stream = cliente.GetStream();
+                byte[] buffer = new byte[256];
+
+                int bytesLeidos = stream.Read(buffer, 0, buffer.Length);
+                nombreCliente = Encoding.UTF8.GetString(buffer, 0, bytesLeidos).Trim();
+
+                // Si el nombre ya está en la lista, se rechaza
+                if (!clientes.ContainsValue(nombreCliente))
                 {
+                    clientes.Add(cliente, nombreCliente);
+                    Console.WriteLine($"Nuevo jugador conectado: {nombreCliente}");
+                    EnviarListaJugadores();
+                }
+
+                // Escuchar mensajes del cliente
+                while (true)
+                {
+                    bytesLeidos = stream.Read(buffer, 0, buffer.Length);
+                    if (bytesLeidos == 0)
+                    {
+                        // Si `Read` devuelve 0, significa que el cliente se desconectó
+                        throw new Exception("Cliente desconectado.");
+                    }
+
                     string mensaje = Encoding.UTF8.GetString(buffer, 0, bytesLeidos);
                     EnviarATodos(mensaje);
                 }
             }
             catch (Exception)
             {
-                Console.WriteLine($"Jugador {nombreCliente} desconectado.");
+                Console.WriteLine($"Jugador {nombreCliente} se ha desconectado.");
             }
             finally
             {
-                clientes.Remove(cliente);
+                if (cliente != null && clientes.ContainsKey(cliente))
+                {
+                    clientes.Remove(cliente);
+                }
                 cliente.Close();
-                EnviarListaJugadores();
+                EnviarListaJugadores(); // Actualiza la lista sin el jugador desconectado
             }
         }
 

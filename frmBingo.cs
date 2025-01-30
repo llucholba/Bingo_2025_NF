@@ -294,14 +294,17 @@ namespace Bingo_2025_NF
             cliente.Conectar(txtIPServidor.Text, 12345, txtNombreJugador.Text, RecibirMensaje);
             lblEstadoConexion.Text = "Conectado al servidor...";
 
+            btnConectar.Visible = false;
+
             if (!esServidor)
             {
                 btnNuevoJuego.Visible = false;
-                btnConectar.Visible = false;
+                btnDesconectar.Visible = true;
             }
             else
             {
                 lblEstadoConexion.Text = "Servidor iniciado...";
+                btnCerrarServidor.Visible = true;
             }
         }
         private void RecibirMensaje(string mensaje)
@@ -343,6 +346,34 @@ namespace Bingo_2025_NF
             else
             {
                 ConectarComoCliente();
+            }
+        }
+
+        private void btnDesconectar_Click(object sender, EventArgs e)
+        {
+            if (cliente != null)
+            {
+                DialogResult cerrarServidor = MessageBox.Show("¿Desconectar este cliente?", "Desconectar cliente", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (cerrarServidor == DialogResult.Yes)
+                {
+                    cliente.Desconectar();
+                    MessageBox.Show("Te has desconectado del servidor.");
+                }
+            }
+        }
+
+        private void btnCerrarServidor_Click(object sender, EventArgs e)
+        {
+            if (servidor != null)
+            {
+                DialogResult cerrarServidor = MessageBox.Show("¿Deseas cerrar el servidor?", "Desconectar servidor", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (cerrarServidor == DialogResult.Yes)
+                {
+                    servidor.DetenerServidor();
+                    MessageBox.Show("El servidor se ha cerrado.");
+                }
             }
         }
     }

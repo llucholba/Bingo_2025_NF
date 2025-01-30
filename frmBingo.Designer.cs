@@ -135,6 +135,8 @@
             this.tablePanelCarton = new System.Windows.Forms.TableLayoutPanel();
             this.lstJugadores = new System.Windows.Forms.ListView();
             this.lbJugadores = new System.Windows.Forms.Label();
+            this.btnDesconectar = new System.Windows.Forms.Button();
+            this.btnCerrarServidor = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picBola)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEvento)).BeginInit();
             this.SuspendLayout();
@@ -1545,14 +1547,14 @@
             this.lblEstadoConexion.AutoSize = true;
             this.lblEstadoConexion.Location = new System.Drawing.Point(818, 369);
             this.lblEstadoConexion.Name = "lblEstadoConexion";
-            this.lblEstadoConexion.Size = new System.Drawing.Size(106, 17);
+            this.lblEstadoConexion.Size = new System.Drawing.Size(91, 17);
             this.lblEstadoConexion.TabIndex = 94;
-            this.lblEstadoConexion.Text = "Estado Conexión";
+            this.lblEstadoConexion.Text = "Desconectado";
             // 
             // lblNombreJugador
             // 
             this.lblNombreJugador.AutoSize = true;
-            this.lblNombreJugador.Location = new System.Drawing.Point(706, 403);
+            this.lblNombreJugador.Location = new System.Drawing.Point(706, 393);
             this.lblNombreJugador.Name = "lblNombreJugador";
             this.lblNombreJugador.Size = new System.Drawing.Size(109, 17);
             this.lblNombreJugador.TabIndex = 95;
@@ -1560,7 +1562,7 @@
             // 
             // txtNombreJugador
             // 
-            this.txtNombreJugador.Location = new System.Drawing.Point(821, 400);
+            this.txtNombreJugador.Location = new System.Drawing.Point(821, 390);
             this.txtNombreJugador.Name = "txtNombreJugador";
             this.txtNombreJugador.Size = new System.Drawing.Size(116, 25);
             this.txtNombreJugador.TabIndex = 96;
@@ -1568,7 +1570,7 @@
             // lblIPServidor
             // 
             this.lblIPServidor.AutoSize = true;
-            this.lblIPServidor.Location = new System.Drawing.Point(706, 430);
+            this.lblIPServidor.Location = new System.Drawing.Point(706, 423);
             this.lblIPServidor.Name = "lblIPServidor";
             this.lblIPServidor.Size = new System.Drawing.Size(71, 17);
             this.lblIPServidor.TabIndex = 97;
@@ -1576,7 +1578,7 @@
             // 
             // txtIPServidor
             // 
-            this.txtIPServidor.Location = new System.Drawing.Point(821, 427);
+            this.txtIPServidor.Location = new System.Drawing.Point(821, 420);
             this.txtIPServidor.Name = "txtIPServidor";
             this.txtIPServidor.Size = new System.Drawing.Size(116, 25);
             this.txtIPServidor.TabIndex = 98;
@@ -1667,11 +1669,38 @@
             this.lbJugadores.TabIndex = 105;
             this.lbJugadores.Text = "Jugadores";
             // 
+            // btnDesconectar
+            // 
+            this.btnDesconectar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDesconectar.ForeColor = System.Drawing.Color.Red;
+            this.btnDesconectar.Location = new System.Drawing.Point(783, 448);
+            this.btnDesconectar.Name = "btnDesconectar";
+            this.btnDesconectar.Size = new System.Drawing.Size(32, 23);
+            this.btnDesconectar.TabIndex = 106;
+            this.btnDesconectar.Text = "X";
+            this.btnDesconectar.UseVisualStyleBackColor = true;
+            this.btnDesconectar.Visible = false;
+            this.btnDesconectar.Click += new System.EventHandler(this.btnDesconectar_Click);
+            // 
+            // btnCerrarServidor
+            // 
+            this.btnCerrarServidor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCerrarServidor.Location = new System.Drawing.Point(821, 448);
+            this.btnCerrarServidor.Name = "btnCerrarServidor";
+            this.btnCerrarServidor.Size = new System.Drawing.Size(116, 23);
+            this.btnCerrarServidor.TabIndex = 107;
+            this.btnCerrarServidor.Text = "Desconectar";
+            this.btnCerrarServidor.UseVisualStyleBackColor = true;
+            this.btnCerrarServidor.Visible = false;
+            this.btnCerrarServidor.Click += new System.EventHandler(this.btnCerrarServidor_Click);
+            // 
             // frmBingo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1057, 730);
+            this.Controls.Add(this.btnCerrarServidor);
+            this.Controls.Add(this.btnDesconectar);
             this.Controls.Add(this.lbJugadores);
             this.Controls.Add(this.lstJugadores);
             this.Controls.Add(this.tablePanelCarton);
@@ -1903,6 +1932,8 @@
         private System.Windows.Forms.TableLayoutPanel tablePanelCarton;
         private System.Windows.Forms.ListView lstJugadores;
         private System.Windows.Forms.Label lbJugadores;
+        private System.Windows.Forms.Button btnDesconectar;
+        private System.Windows.Forms.Button btnCerrarServidor;
     }
 }
 

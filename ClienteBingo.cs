@@ -2,6 +2,7 @@
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
+using System.Windows.Forms;
 
 namespace Bingo_2025_NF
 {
@@ -23,6 +24,22 @@ namespace Bingo_2025_NF
 
             Thread hiloEscucha = new Thread(EscucharServidor);
             hiloEscucha.Start();
+        }
+
+        public void Desconectar()
+        {
+            if (cliente != null && cliente.Connected)
+            {
+                try
+                {
+                    cliente.Close();
+                    Console.WriteLine("Te has desconectado del servidor.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error al desconectar: " + ex.Message);
+                }
+            }
         }
 
         private void EscucharServidor()
