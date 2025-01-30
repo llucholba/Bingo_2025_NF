@@ -281,15 +281,18 @@ namespace Bingo_2025_NF
         private void IniciarServidor()
         {
             servidor = new ServidorBingo();
-            servidor.IniciarServidor(12345);
+            servidor.IniciarServidor(12345, txtNombreJugador.Text);
             lblEstadoConexion.Text = "Servidor iniciado...";
             esServidor = true;
         }
         private void ConectarComoCliente()
         {
             cliente = new ClienteBingo();
-            cliente.Conectar(txtIPServidor.Text, 12345, RecibirMensaje);
+            cliente.Conectar(txtIPServidor.Text, 12345, txtNombreJugador.Text, RecibirMensaje);
             lblEstadoConexion.Text = "Conectado al servidor...";
+
+            btnNuevoJuego.Visible = false;
+            btnConectar.Visible = false;
         }
         private void RecibirMensaje(string mensaje)
         {
@@ -299,26 +302,37 @@ namespace Bingo_2025_NF
                 return;
             }
 
-            txtNuevaBola.Text = mensaje;
-            actualizarBola(int.Parse(mensaje));
+            if (mensaje.StartsWith("JUGADORES:"))
+            {
+                string[] jugadores = mensaje.Substring(10).Split(',');
+                lstJugadores.Items.Clear();
+                foreach (var jugador in jugadores)
+                {
+                    lstJugadores.Items.Add(new ListViewItem(jugador));
+                }
+            }
+            else
+            {
+                txtNuevaBola.Text = mensaje;
+                actualizarBola(int.Parse(mensaje));
+            }
         }
 
         private void btnConectar_Click(object sender, EventArgs e)
         {
-            if (txtNombreJugador.Text == "" || txtNombreJugador == null || txtIPServidor.Text == "" || txtIPServidor == null)
+            if (string.IsNullOrWhiteSpace(txtNombreJugador.Text) || string.IsNullOrWhiteSpace(txtIPServidor.Text))
             {
                 MessageBox.Show("Debe ingresar un nombre y un IP", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (txtIPServidor.Text == "localhost")
+            {
+                IniciarServidor();
             }
             else
             {
-                if (txtIPServidor.Text == "localhost")
-                {
-                    IniciarServidor();
-                }
-                else
-                {
-                    ConectarComoCliente();
-                }
+                ConectarComoCliente();
             }
         }
     }

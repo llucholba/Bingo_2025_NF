@@ -133,6 +133,8 @@
             this.txtNuevaBola = new System.Windows.Forms.TextBox();
             this.txtContador = new System.Windows.Forms.TextBox();
             this.tablePanelCarton = new System.Windows.Forms.TableLayoutPanel();
+            this.lstJugadores = new System.Windows.Forms.ListView();
+            this.lbJugadores = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picBola)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEvento)).BeginInit();
             this.SuspendLayout();
@@ -1647,11 +1649,31 @@
             this.tablePanelCarton.Size = new System.Drawing.Size(400, 200);
             this.tablePanelCarton.TabIndex = 103;
             // 
+            // lstJugadores
+            // 
+            this.lstJugadores.HideSelection = false;
+            this.lstJugadores.Location = new System.Drawing.Point(87, 477);
+            this.lstJugadores.Name = "lstJugadores";
+            this.lstJugadores.Size = new System.Drawing.Size(958, 35);
+            this.lstJugadores.TabIndex = 104;
+            this.lstJugadores.UseCompatibleStateImageBehavior = false;
+            // 
+            // lbJugadores
+            // 
+            this.lbJugadores.AutoSize = true;
+            this.lbJugadores.Location = new System.Drawing.Point(12, 486);
+            this.lbJugadores.Name = "lbJugadores";
+            this.lbJugadores.Size = new System.Drawing.Size(69, 17);
+            this.lbJugadores.TabIndex = 105;
+            this.lbJugadores.Text = "Jugadores";
+            // 
             // frmBingo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1057, 730);
+            this.Controls.Add(this.lbJugadores);
+            this.Controls.Add(this.lstJugadores);
             this.Controls.Add(this.tablePanelCarton);
             this.Controls.Add(this.txtContador);
             this.Controls.Add(this.txtNuevaBola);
@@ -1879,6 +1901,8 @@
         private System.Windows.Forms.TextBox txtNuevaBola;
         public System.Windows.Forms.TextBox txtContador;
         private System.Windows.Forms.TableLayoutPanel tablePanelCarton;
+        private System.Windows.Forms.ListView lstJugadores;
+        private System.Windows.Forms.Label lbJugadores;
     }
 }
 

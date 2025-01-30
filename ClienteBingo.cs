@@ -11,12 +11,15 @@ namespace Bingo_2025_NF
         private NetworkStream stream;
         private Action<string> onMensajeRecibido;
 
-        public void Conectar(string ipServidor, int puerto, Action<string> callback)
+        public void Conectar(string ipServidor, int puerto, string nombreJugador, Action<string> callback)
         {
             cliente = new TcpClient();
             cliente.Connect(ipServidor, puerto);
             stream = cliente.GetStream();
             onMensajeRecibido = callback;
+
+            byte[] data = Encoding.UTF8.GetBytes(nombreJugador);
+            stream.Write(data, 0, data.Length);
 
             Thread hiloEscucha = new Thread(EscucharServidor);
             hiloEscucha.Start();
