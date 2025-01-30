@@ -11,22 +11,20 @@ namespace Bingo_2025_NF
     {
         private TcpListener servidor;
         private Dictionary<TcpClient, string> clientes = new Dictionary<TcpClient, string>();
-        private readonly TcpClient servidorCliente = new TcpClient(); // Instancia especial para el servidor
+        private string nombreHost;
 
         public void IniciarServidor(int puerto, string nombreHost)
         {
+            this.nombreHost = nombreHost; // Guardar el nombre del host
+
             servidor = new TcpListener(IPAddress.Any, puerto);
             servidor.Start();
             Console.WriteLine("Servidor iniciado en el puerto " + puerto);
 
-            // Limpiar lista y agregar el host a la lista de jugadores
-            clientes.Clear();
-            clientes.Add(servidorCliente, nombreHost);  // servidorCliente representa al propio servidor
-
             Thread hiloEscucha = new Thread(EscucharClientes);
             hiloEscucha.Start();
 
-            // Enviar la lista de jugadores a todos (aunque aún no haya clientes)
+            // Agregamos el host manualmente a la lista
             EnviarListaJugadores();
         }
 
@@ -54,15 +52,24 @@ namespace Bingo_2025_NF
                 EnviarListaJugadores();
             }
 
-            while ((bytesLeidos = stream.Read(buffer, 0, buffer.Length)) != 0)
+            try
             {
-                string mensaje = Encoding.UTF8.GetString(buffer, 0, bytesLeidos);
-                EnviarATodos(mensaje);
+                while ((bytesLeidos = stream.Read(buffer, 0, buffer.Length)) != 0)
+                {
+                    string mensaje = Encoding.UTF8.GetString(buffer, 0, bytesLeidos);
+                    EnviarATodos(mensaje);
+                }
             }
-
-            clientes.Remove(cliente);
-            cliente.Close();
-            EnviarListaJugadores();
+            catch (Exception)
+            {
+                Console.WriteLine($"Jugador {nombreCliente} desconectado.");
+            }
+            finally
+            {
+                clientes.Remove(cliente);
+                cliente.Close();
+                EnviarListaJugadores();
+            }
         }
 
         private void EnviarListaJugadores()
@@ -74,18 +81,32 @@ namespace Bingo_2025_NF
         public void EnviarATodos(string mensaje)
         {
             byte[] data = Encoding.UTF8.GetBytes(mensaje);
+            List<TcpClient> clientesDesconectados = new List<TcpClient>();
+
             foreach (TcpClient cliente in clientes.Keys)
             {
-                if (cliente.Connected)
+                try
                 {
-                    NetworkStream stream = cliente.GetStream();
-                    stream.Write(data, 0, data.Length);
+                    if (cliente.Connected)
+                    {
+                        NetworkStream stream = cliente.GetStream();
+                        stream.Write(data, 0, data.Length);
+                    }
+                    else
+                    {
+                        clientesDesconectados.Add(cliente);
+                    }
                 }
-                else
+                catch (Exception)
                 {
-                    // Handle the disconnected client case
-                    Console.WriteLine("Cliente desconectado.");
+                    clientesDesconectados.Add(cliente);
                 }
+            }
+
+            // Eliminar clientes desconectados de la lista
+            foreach (var cliente in clientesDesconectados)
+            {
+                clientes.Remove(cliente);
             }
         }
     }

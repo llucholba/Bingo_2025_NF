@@ -282,8 +282,11 @@ namespace Bingo_2025_NF
         {
             servidor = new ServidorBingo();
             servidor.IniciarServidor(12345, txtNombreJugador.Text);
-            lblEstadoConexion.Text = "Servidor iniciado...";
+
             esServidor = true;
+
+            // Conectar el host como cliente también
+            ConectarComoCliente();
         }
         private void ConectarComoCliente()
         {
@@ -291,8 +294,15 @@ namespace Bingo_2025_NF
             cliente.Conectar(txtIPServidor.Text, 12345, txtNombreJugador.Text, RecibirMensaje);
             lblEstadoConexion.Text = "Conectado al servidor...";
 
-            btnNuevoJuego.Visible = false;
-            btnConectar.Visible = false;
+            if (!esServidor)
+            {
+                btnNuevoJuego.Visible = false;
+                btnConectar.Visible = false;
+            }
+            else
+            {
+                lblEstadoConexion.Text = "Servidor iniciado...";
+            }
         }
         private void RecibirMensaje(string mensaje)
         {
