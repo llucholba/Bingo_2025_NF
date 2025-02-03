@@ -137,6 +137,9 @@
             this.lbJugadores = new System.Windows.Forms.Label();
             this.btnDesconectar = new System.Windows.Forms.Button();
             this.btnCerrarServidor = new System.Windows.Forms.Button();
+            this.flpCartones = new System.Windows.Forms.FlowLayoutPanel();
+            this.lblCartonPropio = new System.Windows.Forms.Label();
+            this.lblCartonesOtrosJugadores = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picBola)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEvento)).BeginInit();
             this.SuspendLayout();
@@ -1596,7 +1599,7 @@
             // 
             // picEvento
             // 
-            this.picEvento.Location = new System.Drawing.Point(598, 518);
+            this.picEvento.Location = new System.Drawing.Point(598, 556);
             this.picEvento.Name = "picEvento";
             this.picEvento.Size = new System.Drawing.Size(447, 200);
             this.picEvento.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1610,7 +1613,7 @@
             this.txtNuevaBola.Cursor = System.Windows.Forms.Cursors.Help;
             this.txtNuevaBola.Font = new System.Drawing.Font("Segoe UI", 78.75F);
             this.txtNuevaBola.ForeColor = System.Drawing.Color.White;
-            this.txtNuevaBola.Location = new System.Drawing.Point(418, 518);
+            this.txtNuevaBola.Location = new System.Drawing.Point(418, 556);
             this.txtNuevaBola.Name = "txtNuevaBola";
             this.txtNuevaBola.ReadOnly = true;
             this.txtNuevaBola.Size = new System.Drawing.Size(174, 140);
@@ -1623,7 +1626,7 @@
             // 
             this.txtContador.BackColor = System.Drawing.SystemColors.Window;
             this.txtContador.Cursor = System.Windows.Forms.Cursors.Default;
-            this.txtContador.Location = new System.Drawing.Point(455, 664);
+            this.txtContador.Location = new System.Drawing.Point(456, 702);
             this.txtContador.Name = "txtContador";
             this.txtContador.ReadOnly = true;
             this.txtContador.Size = new System.Drawing.Size(100, 25);
@@ -1641,7 +1644,7 @@
             this.tablePanelCarton.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tablePanelCarton.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tablePanelCarton.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tablePanelCarton.Location = new System.Drawing.Point(12, 518);
+            this.tablePanelCarton.Location = new System.Drawing.Point(12, 556);
             this.tablePanelCarton.Name = "tablePanelCarton";
             this.tablePanelCarton.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
             this.tablePanelCarton.RowCount = 3;
@@ -1694,11 +1697,39 @@
             this.btnCerrarServidor.Visible = false;
             this.btnCerrarServidor.Click += new System.EventHandler(this.btnCerrarServidor_Click);
             // 
+            // flpCartones
+            // 
+            this.flpCartones.Location = new System.Drawing.Point(12, 796);
+            this.flpCartones.Name = "flpCartones";
+            this.flpCartones.Size = new System.Drawing.Size(1033, 130);
+            this.flpCartones.TabIndex = 108;
+            // 
+            // lblCartonPropio
+            // 
+            this.lblCartonPropio.AutoSize = true;
+            this.lblCartonPropio.Location = new System.Drawing.Point(9, 536);
+            this.lblCartonPropio.Name = "lblCartonPropio";
+            this.lblCartonPropio.Size = new System.Drawing.Size(66, 17);
+            this.lblCartonPropio.TabIndex = 109;
+            this.lblCartonPropio.Text = "Mi Cartón";
+            // 
+            // lblCartonesOtrosJugadores
+            // 
+            this.lblCartonesOtrosJugadores.AutoSize = true;
+            this.lblCartonesOtrosJugadores.Location = new System.Drawing.Point(9, 776);
+            this.lblCartonesOtrosJugadores.Name = "lblCartonesOtrosJugadores";
+            this.lblCartonesOtrosJugadores.Size = new System.Drawing.Size(106, 17);
+            this.lblCartonesOtrosJugadores.TabIndex = 110;
+            this.lblCartonesOtrosJugadores.Text = "Otros Jugadores";
+            // 
             // frmBingo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1057, 730);
+            this.ClientSize = new System.Drawing.Size(1057, 938);
+            this.Controls.Add(this.lblCartonesOtrosJugadores);
+            this.Controls.Add(this.lblCartonPropio);
+            this.Controls.Add(this.flpCartones);
             this.Controls.Add(this.btnCerrarServidor);
             this.Controls.Add(this.btnDesconectar);
             this.Controls.Add(this.lbJugadores);
@@ -1934,6 +1965,9 @@
         private System.Windows.Forms.Label lbJugadores;
         private System.Windows.Forms.Button btnDesconectar;
         private System.Windows.Forms.Button btnCerrarServidor;
+        private System.Windows.Forms.FlowLayoutPanel flpCartones;
+        private System.Windows.Forms.Label lblCartonPropio;
+        private System.Windows.Forms.Label lblCartonesOtrosJugadores;
     }
 }
 

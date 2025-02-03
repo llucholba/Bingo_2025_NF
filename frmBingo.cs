@@ -81,10 +81,16 @@ namespace Bingo_2025_NF
 
                 GenerarCarton();
 
+                // Aquí debemos enviar un mensaje para que los clientes generen su cartón
+                if (esServidor)
+                {
+                    // El mensaje "INICIAR_CARTON" indicará a los clientes que deben generar su cartón
+                    servidor.EnviarATodos("INICIAR_CARTON");
+                }
+
                 picEvento.Image = null;
             }
         }
-
         private void btnNuevaBola_Click(object sender, EventArgs e)
         {
             if (bolillas.Count > 0)
@@ -181,7 +187,6 @@ namespace Bingo_2025_NF
                 bolillas[j] = temp;
             }
         }
-
         private void resetearColoresTxtBolas()
         {
             foreach (var txtBola in txtBolillas)
@@ -189,7 +194,6 @@ namespace Bingo_2025_NF
                 txtBola.ForeColor = Color.DimGray;
             }
         }
-
         private void actualizarBola(int numeroAzar)
         {
             // Obtener la ruta raíz del proyecto
@@ -224,7 +228,7 @@ namespace Bingo_2025_NF
             List<int> numerosCarton = new List<int>();
 
             // Generar 15 números aleatorios entre 1 y 90 sin repetirse
-            Random random = new Random();
+            Random random = new Random(Guid.NewGuid().GetHashCode());
             while (numerosCarton.Count < 15)
             {
                 int numeroAleatorio = random.Next(1, 91); // Generamos un número entre 1 y 90
@@ -278,6 +282,71 @@ namespace Bingo_2025_NF
             return true; // Si todos los TextBox están marcados, el cartón está completo
         }
 
+        /*Para enviar el cartón del cliente a otros jugadores y así todos puedan ver el cartón de cada jugador
+        //private void ProcesarCarton(string mensaje)
+        //{
+        //    // Quitamos "CARTON:" y separamos por '|' para obtener el nombre y los números.
+        //    string datos = mensaje.Substring(7); // Remueve "CARTON:"
+        //    string[] partes = datos.Split('|');
+        //    if (partes.Length != 2) return; // Error en el formato
+        //    string jugador = partes[0];
+        //    List<int> numerosCarton = partes[1].Split(',').Select(int.Parse).ToList();
+
+        //    // Actualizamos o agregamos el cartón del jugador
+        //    cartonesJugadores[jugador] = numerosCarton;
+
+        //    // Actualizamos la interfaz
+        //    ActualizarUICartones();
+        //}
+        //private void ActualizarUICartones()
+        //{
+        //    flpCartones.Controls.Clear();
+        //    foreach (var kv in cartonesJugadores)
+        //    {
+        //        string jugador = kv.Key;
+        //        List<int> numeros = kv.Value;
+
+        //        // Creamos un panel para este cartón
+        //        Panel pnlCarton = new Panel();
+        //        pnlCarton.BorderStyle = BorderStyle.FixedSingle;
+        //        pnlCarton.Width = 220; // Ajusta según sea necesario
+        //        pnlCarton.Height = 120; // Ajusta según sea necesario
+
+        //        // Agregamos una etiqueta con el nombre del jugador
+        //        Label lblJugador = new Label();
+        //        lblJugador.Text = jugador;
+        //        lblJugador.Dock = DockStyle.Top;
+        //        lblJugador.TextAlign = ContentAlignment.MiddleCenter;
+        //        pnlCarton.Controls.Add(lblJugador);
+
+        //        // Creamos un TableLayoutPanel para el cartón
+        //        TableLayoutPanel tlp = new TableLayoutPanel();
+        //        tlp.RowCount = 3;
+        //        tlp.ColumnCount = 5;
+        //        tlp.Dock = DockStyle.Fill;
+        //        tlp.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
+
+        //        int index = 0;
+        //        for (int i = 0; i < 3; i++)
+        //        {
+        //            for (int j = 0; j < 5; j++)
+        //            {
+        //                Label lblNum = new Label();
+        //                lblNum.Text = numeros[index].ToString();
+        //                lblNum.Dock = DockStyle.Fill;
+        //                lblNum.TextAlign = ContentAlignment.MiddleCenter;
+        //                // Opcional: configurar color y fuente para resaltar los números marcados, etc.
+        //                tlp.Controls.Add(lblNum, j, i);
+        //                index++;
+        //            }
+        //        }
+
+        //        pnlCarton.Controls.Add(tlp);
+        //        flpCartones.Controls.Add(pnlCarton);
+        //    }
+        //}
+        */
+
         private void IniciarServidor()
         {
             servidor = new ServidorBingo();
@@ -307,6 +376,8 @@ namespace Bingo_2025_NF
                 btnCerrarServidor.Visible = true;
             }
         }
+
+        //private Dictionary<string, List<int>> cartonesJugadores = new Dictionary<string, List<int>>();
         private void RecibirMensaje(string mensaje)
         {
             if (InvokeRequired)
@@ -314,7 +385,7 @@ namespace Bingo_2025_NF
                 Invoke(new Action(() => RecibirMensaje(mensaje)));
                 return;
             }
-
+            //Listar los jugadores de la partida
             if (mensaje.StartsWith("JUGADORES:"))
             {
                 string[] jugadores = mensaje.Substring(10).Split(',');
@@ -324,10 +395,41 @@ namespace Bingo_2025_NF
                     lstJugadores.Items.Add(new ListViewItem(jugador));
                 }
             }
+            //Generar cartón en cada jugador conectado (cliente)
+            else if (mensaje == "INICIAR_CARTON")
+            {
+                // Se recibe el mensaje de inicio de cartón: se genera el cartón local
+                GenerarCarton();
+
+                // Opcional: Luego de generar el cartón, el cliente puede enviar su cartón al servidor para sincronizarlo
+                // Por ejemplo, suponiendo que GenerarCarton() genera el cartón y almacena la lista de números en una variable 'numerosCarton'
+                // cliente.EnviarCarton(numerosCarton);
+            }
+
+            /*Recibir cartón de otro jugador para que así, todos los jugadores puedan ver todos los cartones
+            //else if (mensaje.StartsWith("CARTON:"))
+            //{
+            //    // Procesamos el mensaje de cartón.
+            //    // Formato esperado: CARTON:Jugador1|5,12,19,...,87
+            //    ProcesarCarton(mensaje);
+            //}
+            */
+            
+            //Nueva Bola
             else
             {
+                //MessageBox.Show("Número recibido en el cliente: " + mensaje);
                 txtNuevaBola.Text = mensaje;
                 actualizarBola(int.Parse(mensaje));
+                //int numero;
+                //if (int.TryParse(mensaje, out numero))
+                //{
+                //    actualizarBola(numero);
+                //}
+                //else
+                //{
+                //    Console.WriteLine("Error al convertir el mensaje a número.");
+                //}
             }
         }
 
